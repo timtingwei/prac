@@ -11,6 +11,7 @@ def main():
     bar('0')
 
 main()
+print ("END")
 
 '''
 Traceback (most recent call last):
