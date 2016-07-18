@@ -73,3 +73,20 @@ except TypeError as e:
 
 #错误class有包含关系
 # https://docs.python.org/3/library/exceptions.html#exception-hierarchy
+
+#跨级调试，不用在每一个错误后面调试，可以跨级调试
+def foo(s):
+    return 10/int(s)
+
+def bar(s):
+    return foo(s) * 2
+
+def main(): #用main函数进行错误调试
+    try:
+        bar('0')
+    except Exception as e:
+        print ('Error:',e)
+    finally:
+        print('finally')
+
+# TypeError
