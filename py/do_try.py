@@ -23,7 +23,7 @@ try:
     print ('result:',r) #run normally
 except ZeroDivisionError as e:#skip except
     print ('except:',e)
-finally:#skip finally
+finally:
     print('finally...')
 print('END')
 '''
@@ -40,7 +40,7 @@ except ZeroDivisionError as e:#skip except
     print ('except:',e)
 else:
     print ('no error')
-finally:#skip finally
+finally:
     print('finally...')
 print('END')
 '''
