@@ -5,7 +5,7 @@ if __name__ == '__main__': #why use 'if there'?
         x = 0
         c = 0
     def f(stu):
-        stu.x = 20 #why a parameter has anattribute?
+        stu.x = 20 #Q:why a parameter has anattribute? A:stu is a class
         stu.c = 'c'
 
     a = Student()
@@ -15,3 +15,12 @@ if __name__ == '__main__': #why use 'if there'?
     print (a.x,a.c)
 
 #return 20 c
+
+
+    def test_para(para):
+        para.x = 5  #para is a class
+
+    if __name__ == '__main__':
+        b = test_para(a)
+        print (a.x)
+    #return 5
