@@ -1,7 +1,7 @@
 #err_logging.py
 
 #先打印错误信息，然程序仍然继续执行，并正常退出
-
+'''
 import logging
 
 def foo(s):
@@ -18,6 +18,7 @@ def main():
 
 main()
 print ('END')
+'''
 '''
 ERROR:root:division by zero
 Traceback (most recent call last):
@@ -44,3 +45,15 @@ Traceback (most recent call last):
     return 10 / int(s)
 ZeroDivisionError: division by zero
 '''
+
+#控制不同级别的输出
+print ('END')
+import logging
+logging.basicConfig(level=logging.INFO) #debug<info<warning<error
+s = '0'
+n = int(s)
+logging.info('n = %d'% n)
+print (10/n)
+
+#INFO:root:n = 0
+#ERROR:root:division by zero
