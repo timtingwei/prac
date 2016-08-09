@@ -19,10 +19,11 @@ class Solution(object):
             string +=s
         sp = string.split('*')
         count = [len(sp[i]) for i in range(len(sp))]
+        print (count)
         index,temp = 0,0
-        for j in range(len(count)):
-            if count[j]>temp:
-                temp = count[j];index = j
+        for i,k in enumerate(count):
+            if k>temp:
+                temp = k;index = i
         print ("'%s',length = %s"  %(sp[index],temp))
 
 s = Solution()
