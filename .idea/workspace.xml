@@ -1,0 +1,1153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cd5a7f8b-dab2-4bc5-8618-c88f40ba1a6e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py/task/3Sum.py" />
+    </list>
+    <ignored path="prac.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="prac" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ReverseInteger.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/py/task/ReverseInteger.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3Sum.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/py/task/3Sum.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.63010204">
+              <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Tim Hu" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/py/corePy/2.4_operator.py" />
+        <option value="$PROJECT_DIR$/py/corePy/4.5.3_boolType.py" />
+        <option value="$PROJECT_DIR$/py/corePy/2.5_valueAndValuation.py" />
+        <option value="$PROJECT_DIR$/py/corePy/2.6_number.py" />
+        <option value="$PROJECT_DIR$/py/corePy/2.7_string.py" />
+        <option value="$PROJECT_DIR$/py/corePy/2.9_dictionary.py" />
+        <option value="$PROJECT_DIR$/py/corePy/2.11-13_if_while_for_range.py" />
+        <option value="$PROJECT_DIR$/py/corePy/2.14_listAnalysis.py" />
+        <option value="$PROJECT_DIR$/py/corePy/2.15_open_file().py" />
+        <option value="$PROJECT_DIR$/py/corePy/2.16_error.py" />
+        <option value="$PROJECT_DIR$/py/corePy/2.17_function.py" />
+        <option value="$PROJECT_DIR$/py/corePy/2.18_class.py" />
+        <option value="$PROJECT_DIR$/py/corePy/2.19_module.py" />
+        <option value="$PROJECT_DIR$/py/corePy/2.19_usefulFunctions.py" />
+        <option value="$PROJECT_DIR$/py/corePy/prac_2-1.py" />
+        <option value="$PROJECT_DIR$/py/corePy/2_prac.py" />
+        <option value="$PROJECT_DIR$/py/corePy/3.1_.py" />
+        <option value="$PROJECT_DIR$/py/corePy/3.5.4_referenceCount.py" />
+        <option value="$PROJECT_DIR$/py/corePy/3.6_firstPythonProg.py" />
+        <option value="$PROJECT_DIR$/py/corePy/3.6_makeTextFile.py" />
+        <option value="$PROJECT_DIR$/py/corePy/3.x_prac.py" />
+        <option value="$PROJECT_DIR$/py/corePy/3.6_readTextFile.py" />
+        <option value="$PROJECT_DIR$/py/corePy/4.3_object_type.py" />
+        <option value="$PROJECT_DIR$/py/corePy/4.4_objec_internal.py" />
+        <option value="$PROJECT_DIR$/py/stacko/eval_exec_compile.py" />
+        <option value="$PROJECT_DIR$/py/corePy/typechk1.py" />
+        <option value="$PROJECT_DIR$/py/corePy/4.6_built_in_function.py" />
+        <option value="$PROJECT_DIR$/py/corePy/typechk.py" />
+        <option value="$PROJECT_DIR$/py/stacko/use_super.py" />
+        <option value="$PROJECT_DIR$/py/corePy/4.8.2_immutable.py" />
+        <option value="$PROJECT_DIR$/py/corePy/4.10_prac.py" />
+        <option value="$PROJECT_DIR$/py/task/cxt_1.py" />
+        <option value="$PROJECT_DIR$/py/task/cxt_2.py" />
+        <option value="$PROJECT_DIR$/py/corePy/5.1_numberType.py" />
+        <option value="$PROJECT_DIR$/py/corePy/5.4_complex.py" />
+        <option value="$PROJECT_DIR$/py/corePy/5.5_operator.py" />
+        <option value="$PROJECT_DIR$/py/corePy/5.6_in_factory_function.py" />
+        <option value="$PROJECT_DIR$/py/task/cxt_3.py" />
+        <option value="$PROJECT_DIR$/py/task/bct_4.py" />
+        <option value="$PROJECT_DIR$/py/corePy/5.7_otherNumType.py" />
+        <option value="$PROJECT_DIR$/py/corePy/5.8_random.py" />
+        <option value="$PROJECT_DIR$/py/corePy/5.9_prac.py" />
+        <option value="$PROJECT_DIR$/py/corePy/6.1_sequence.py" />
+        <option value="$PROJECT_DIR$/py/corePy/idcheck.py" />
+        <option value="$PROJECT_DIR$/py/corePy/6.3_stringOpreation.py" />
+        <option value="$PROJECT_DIR$/py/task/TwoSum.py" />
+        <option value="$PROJECT_DIR$/py/task/AddTwoNumbers.py" />
+        <option value="$PROJECT_DIR$/py/task/LongestSubstring.py" />
+        <option value="$PROJECT_DIR$/py/task/ReverseInteger.py" />
+        <option value="$PROJECT_DIR$/py/task/panlindromeNumber.py" />
+        <option value="$PROJECT_DIR$/py/task/3Sum.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="528" />
+    <option name="y" value="2" />
+    <option name="width" value="816" />
+    <option name="height" value="759" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="py" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="py" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="task" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Python" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\tim\prac\py\task" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\tim\prac\py\miao" />
+      <recent name="E:\tim\prac\py\corePy" />
+      <recent name="E:\tim\prac\py\task" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.3Sum">
+    <configuration default="false" name="AddTwoNumbers" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py/task" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="prac" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py/task/AddTwoNumbers.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="LongestSubstring" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py/task" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="prac" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py/task/LongestSubstring.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ReverseInteger" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py/task" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="prac" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py/task/ReverseInteger.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="panlindromeNumber" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py/task" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="prac" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py/task/panlindromeNumber.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="3Sum" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py/task" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="prac" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py/task/3Sum.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="prac" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="prac" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="prac" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="prac" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="prac" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="prac" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.AddTwoNumbers" />
+      <item index="1" class="java.lang.String" itemvalue="Python.LongestSubstring" />
+      <item index="2" class="java.lang.String" itemvalue="Python.ReverseInteger" />
+      <item index="3" class="java.lang.String" itemvalue="Python.panlindromeNumber" />
+      <item index="4" class="java.lang.String" itemvalue="Python.3Sum" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.3Sum" />
+        <item index="1" class="java.lang.String" itemvalue="Python.panlindromeNumber" />
+        <item index="2" class="java.lang.String" itemvalue="Python.ReverseInteger" />
+        <item index="3" class="java.lang.String" itemvalue="Python.LongestSubstring" />
+        <item index="4" class="java.lang.String" itemvalue="Python.AddTwoNumbers" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cd5a7f8b-dab2-4bc5-8618-c88f40ba1a6e" name="Default" comment="" />
+      <created>1468834740928</created>
+      <option name="number" value="Default" />
+      <updated>1468834740928</updated>
+    </task>
+    <task id="LOCAL-00001" summary="commit test">
+      <created>1468834816990</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1468834816990</updated>
+    </task>
+    <task id="LOCAL-00002" summary="commit do_try">
+      <created>1468835803679</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1468835803679</updated>
+    </task>
+    <task id="LOCAL-00003" summary="commit do_try">
+      <created>1468836725910</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1468836725910</updated>
+    </task>
+    <task id="LOCAL-00004" summary="commit do_try_main()">
+      <created>1468837649825</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1468837649825</updated>
+    </task>
+    <task id="LOCAL-00005" summary="delete finally skip">
+      <created>1468853215159</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1468853215159</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add err_stack">
+      <created>1468854051983</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1468854051983</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add print(&quot;END&quot;)">
+      <created>1468854799917</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1468854799917</updated>
+    </task>
+    <task id="LOCAL-00008" summary="commit err_logging">
+      <created>1468854946133</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1468854946133</updated>
+    </task>
+    <task id="LOCAL-00009" summary="commit err_raise create a ErrorType">
+      <created>1468856401536</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1468856401536</updated>
+    </task>
+    <task id="LOCAL-00010" summary="commit err_reraise raise+_">
+      <created>1468857038818</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1468857038818</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add err_type_convert">
+      <created>1468857417291</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1468857417291</updated>
+    </task>
+    <task id="LOCAL-00012" summary="create task file and commit print_datetime.py">
+      <created>1468861783161</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1468861783161</updated>
+    </task>
+    <task id="LOCAL-00013" summary="commit args_deliver.py Q=2">
+      <created>1468862399348</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1468862399348</updated>
+    </task>
+    <task id="LOCAL-00014" summary="commit args_deliver.py Q=3&#10;convert to EN">
+      <created>1468864024443</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1468864024443</updated>
+    </task>
+    <task id="LOCAL-00015" summary="add test_ _name__==__main__">
+      <created>1468892605451</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1468892605451</updated>
+    </task>
+    <task id="LOCAL-00016" summary="answer why function's parameter has attributes">
+      <created>1468893204046</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1468893204046</updated>
+    </task>
+    <task id="LOCAL-00017" summary="commit module test">
+      <created>1468901204847</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1468901204847</updated>
+    </task>
+    <task id="LOCAL-00018" summary="commit module test">
+      <created>1468902001027</created>
+      <option name="number" value="00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1468902001027</updated>
+    </task>
+    <task id="LOCAL-00019" summary="fresh err">
+      <created>1468996944095</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1468996944095</updated>
+    </task>
+    <task id="LOCAL-00020" summary="add file:corePy">
+      <created>1469006221818</created>
+      <option name="number" value="00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1469006221818</updated>
+    </task>
+    <task id="LOCAL-00021" summary=" add operator_objectCompare">
+      <created>1469017100775</created>
+      <option name="number" value="00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1469017100775</updated>
+    </task>
+    <task id="LOCAL-00022" summary="commit corePy 2.9-2.13">
+      <created>1469026496028</created>
+      <option name="number" value="00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1469026496028</updated>
+    </task>
+    <task id="LOCAL-00023" summary="creat file miao">
+      <created>1469078755821</created>
+      <option name="number" value="00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1469078755821</updated>
+    </task>
+    <task id="LOCAL-00024" summary="commit fractal_tree py+gh">
+      <created>1469079094286</created>
+      <option name="number" value="00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1469079094286</updated>
+    </task>
+    <task id="LOCAL-00025" summary="16/7/21">
+      <created>1469114167858</created>
+      <option name="number" value="00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1469114167858</updated>
+    </task>
+    <task id="LOCAL-00026" summary="160726">
+      <created>1469500214422</created>
+      <option name="number" value="00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1469500214422</updated>
+    </task>
+    <task id="LOCAL-00027" summary="corePy_pythonObject">
+      <created>1469517135218</created>
+      <option name="number" value="00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1469517135218</updated>
+    </task>
+    <task id="LOCAL-00028" summary="cxt1-2">
+      <created>1469543548376</created>
+      <option name="number" value="00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1469543548377</updated>
+    </task>
+    <task id="LOCAL-00029" summary="corePy_5">
+      <created>1469708921718</created>
+      <option name="number" value="00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1469708921718</updated>
+    </task>
+    <task id="LOCAL-00030" summary="160809_leecode">
+      <created>1470744614847</created>
+      <option name="number" value="00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1470744614847</updated>
+    </task>
+    <task id="LOCAL-00031" summary="160809_Leecode_LS002">
+      <created>1470745170742</created>
+      <option name="number" value="00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1470745170742</updated>
+    </task>
+    <task id="LOCAL-00032" summary="160809_Leecode_RI100">
+      <created>1470747080582</created>
+      <option name="number" value="00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1470747080582</updated>
+    </task>
+    <task id="LOCAL-00033" summary="160809_Leecode_RI101">
+      <created>1470748234885</created>
+      <option name="number" value="00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1470748234885</updated>
+    </task>
+    <task id="LOCAL-00034" summary="160810_Leecode_0001">
+      <created>1470817004400</created>
+      <option name="number" value="00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1470817004400</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Doctests_in_mydict2 - 2016.07.19 at 12h 18m 51s.xml">
+      <configuration name="Doctests in mydict2" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_mydict2 - 2016.07.19 at 12h 19m 30s.xml">
+      <configuration name="Doctests in mydict2" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="528" y="2" width="816" height="759" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32713178" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.49707174" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3523077" sideWeight="0.505" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1647145" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3" sideWeight="0.495" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290938" sideWeight="0.4931973" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32713178" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.49707174" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26550078" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30487806" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290938" sideWeight="0.4931973" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1647145" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49284577" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
+    <MESSAGE value="commit err_raise create a ErrorType" />
+    <MESSAGE value="commit err_reraise raise+_" />
+    <MESSAGE value="add err_type_convert" />
+    <MESSAGE value="create task file and commit print_datetime.py" />
+    <MESSAGE value="commit args_deliver.py Q=2" />
+    <MESSAGE value="commit args_deliver.py Q=3&#10;convert to EN" />
+    <MESSAGE value="add test_ _name__==__main__" />
+    <MESSAGE value="answer why function's parameter has attributes" />
+    <MESSAGE value="commit module test" />
+    <MESSAGE value="fresh err" />
+    <MESSAGE value="add file:corePy" />
+    <MESSAGE value=" add operator_objectCompare" />
+    <MESSAGE value="commit corePy 2.9-2.13" />
+    <MESSAGE value="creat file miao" />
+    <MESSAGE value="commit fractal_tree py+gh" />
+    <MESSAGE value="16/7/21" />
+    <MESSAGE value="160726" />
+    <MESSAGE value="corePy_pythonObject" />
+    <MESSAGE value="cxt1-2" />
+    <MESSAGE value="corePy_5" />
+    <MESSAGE value="160809_leecode" />
+    <MESSAGE value="160809_Leecode_LS002" />
+    <MESSAGE value="160809_Leecode_RI100" />
+    <MESSAGE value="160809_Leecode_RI101" />
+    <MESSAGE value="160810_Leecode_0001" />
+    <option name="LAST_COMMIT_MESSAGE" value="160810_Leecode_0001" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/py/corePy/4.3_object_type.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="5" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/py/miao/err_assert.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/miao/err.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/miao/do_try.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7783333">
+          <caret line="91" column="11" selection-start-line="91" selection-start-column="11" selection-end-line="91" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/corePy/2.14_listAnalysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/corePy/2.19_usefulFunctions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3140496">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gh/fact.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/task/one.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/corePy/2.4_operator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22889611">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/corePy/2_prac.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13636364">
+          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/corePy/2.19_module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18506494">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/corePy/2.18_class.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10551948">
+          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/corePy/2.17_function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41396105">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/corePy/2.16_error.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.030844156">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/corePy/2.15_open_file().py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4318182">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/corePy/3.1_.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/corePy/3.5.4_referenceCount.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/corePy/3.6_makeTextFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="31" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/corePy/3.x_prac.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/corePy/3.6_readTextFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/corePy/4.3_object_type.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/corePy/4.4_object_internal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/corePy/typechk.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39130434">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/corePy/4.6_built_in_function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.73913044">
+          <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/stacko/use_super.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6086956">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/corePy/4.8.2_immutable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17391305">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/corePy/typechk1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8604119">
+          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/stacko/eval_exec_compile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9130435">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/corePy/4.5.3_boolType.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47826087">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/corePy/4.5.2_objectIdCompare.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5652174">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/corePy/4.5.1_objectValueCompare.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/corePy/4.10_prac.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/task/cxt_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/task/cxt_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/corePy/5.7_otherNumType.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/corePy/5.8_random.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/task/bct_4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/task/cxt_3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="60" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/corePy/5.1_numberType.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/corePy/5.4_complex.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/corePy/5.5_operator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/corePy/idcheck.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/task/TwoSum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="151" column="72" selection-start-line="151" selection-start-column="72" selection-end-line="151" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/task/AddTwoNumbers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/corePy/6.1_sequence.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6899767">
+          <caret line="129" column="0" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/corePy/6.3_stringOpreation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.044289045">
+          <caret line="86" column="23" selection-start-line="86" selection-start-column="23" selection-end-line="86" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/corePy/5.6_in_factory_function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.044289045">
+          <caret line="69" column="28" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/corePy/5.9_prac.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33566433">
+          <caret line="73" column="13" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/task/LongestSubstring.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6899767">
+          <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/task/panlindromeNumber.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.63901347">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/task/ReverseInteger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/task/3Sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.63010204">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
