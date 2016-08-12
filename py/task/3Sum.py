@@ -21,7 +21,7 @@ class Solution(object):
                         group.append([nums[i],nums[j],nums[k]])
         return [group]
 
-
+#//test vscode
 s = Solution()
 r = s.threeSum([-1,0,1,2,-1,-4])
 print (r)
