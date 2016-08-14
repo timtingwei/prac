@@ -1,5 +1,4 @@
 #with_file.py
-"""
 
 f = open('E:/tim/prac/py/miao/test.txt','r')
 #文件存在
@@ -68,7 +67,7 @@ print (f.read())
 #///忽略编码错误
 f = open('E:/tim/prac/py/miao/test.txt','r',encoding='gbk',errors='ignore')
 print (f.read())
-"""
+
 
 #///写文件 标识符用'w'or 'wb'
 f = open('E:/tim/prac/py/miao/test.txt','w')
@@ -83,5 +82,5 @@ with open('E:/tim/prac/py/miao/test.txt','w') as f:
     f.write('This is my test!')
 
 with open('E:/tim/prac/py/miao/test.txt','r') as f:
-    print (f.read()) #Hello,world! 覆盖掉之前的
+    print (f.read()) #This is my test! 覆盖掉之前的
 
