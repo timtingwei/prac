@@ -2,19 +2,8 @@
 
 #判断101-200之间有多少素数，并输出所有的素数
 
-import math
 
-nums = []
-i = 1
-while i<201:
-    m = int(math.sqrt(i))
-    for j in range(3,m):
-        
-        if i % j != 0 :
-            nums.append(i)
-    i+=1
-print (nums)
-"""
+
 import sys
 import math
 def IsPrim(n):
@@ -34,4 +23,3 @@ if __name__ == '__main__':
 
 print (nums)
 #print (IsPrim(4))
-"""
