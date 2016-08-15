@@ -12,7 +12,6 @@ def IsFlowerNum(n):
     else:
         return False
     
-print (IsFlowerNum(201))
 #///输出1000以内的水仙花数
 k = 0
 for i in range(100,1000):
