@@ -4,22 +4,28 @@ import rhinoscriptsyntax  as rs
 #--- start 双循环创建矩阵向量
 #选取基础点
 basicPt = rs.GetPoint("pick one point.")
-pts = []
+
 size_x = 0
+pts_line = []
 for i in range(4):#四行矩阵
     xform = rs.XformTranslation((size_x,0,0))
     pt_line = rs.PointTransform(basicPt,xform)
     size_x+=12
-    size_y = 0
+    pts_line.append(pt_line)
+
+pts = {} #定义一个字典的方法
+for p in range(len(pts_line)):
     column_temp = []
-    for j in range(6):#六列矩阵
+    size_y = 0
+    for q in range(6):#六列矩阵
         xform_c = rs.XformTranslation((0,size_y,0))
-        pt_c =rs.PointTransform(pt_line,xform_c)
-        pt_c = rs.AddPoint(pt_c)
+        pt_c =rs.PointTransform(pts_line[p],xform_c)
+        rs.AddPoint(pt_c)
         column_temp.append(pt_c)
         size_y +=12
-    pts.append(column_temp)
-print (type(pts[0]))
+    pts[p]=column_temp
+print (pts)
+print (len(pts.get(1))) #///用get()函数，索引字典
 #--- end 双循环创建矩阵向量
 #--- start Flip组织数据结构
 new_pts = []
@@ -40,6 +46,7 @@ for i in range(len(new_pts[1])):
     rec = rs.AddRectangle(mplane,5,5)
     recs.append(rec)
 #--- end 选取列表点建立矩形
+
 """
 #///源码
 import rhinoscriptsyntax as rs
