@@ -1,8 +1,8 @@
 #07_class_01_bird.py
-
+"""
 class Bird: #定义一般鸟类的属性与方法
     fly='Whirring' #定义一般鸟类飞的属性
-    def __init__(self): #调用__init__构造函数，初始化对象的各个属性。
+    def __init__(self): #调用__init__构造函数，初始化对象的各个属性。 #///类在引用时，就被赋予
     #///类的各属性都可以在构造函数中定义
     #///每一个类的方法的第一个参数(self)，包括__init__，总是指向类的当前实例的一个引用。
     #///self是一个既定的习惯
@@ -31,3 +31,69 @@ swift.eat()
 #No,Thanks!
 swift.sing()
 #Squawk!
+
+blackswift = Apodidae() #捆绑实例黑雨燕
+scarceswift = Apodidae() #捆绑实例珍雨燕
+blackswift.sing()
+#Squawk!
+scarceswift.sing()
+#Squawk!
+
+#///类定义时，class语句中的代码都在特殊的命名空间中被执行，即类命名的空间(classnamespace),这个命名空间的可以由类内的所有的成员访问
+#///实例的属性可以重新赋予，但是不会影响捆绑该类的其他属性
+print (blackswift.fly)
+#Whirring
+blackswift.fly = 'humming' #重新赋值属性
+print (blackswift.fly)
+#humming
+print (scarceswift.fly) #///不会影响其他绑定成员的属性
+#Whirring 
+
+#///重新定义blackswift的类
+blackswift = Bird() #成为一般鸟类的一员，不再是雨燕的一员
+print (blackswift.hungry)
+#True
+blackswift.eat()
+#Aaaah...
+blackswift.eat()
+#No,Thanks!
+#blackswift.sing()
+
+Traceback (most recent call last):
+  File "e:\tim\prac\gh\caDesign\07_class_01_bird.py", line 60, in <module>
+    blackswift.sing()
+AttributeError: 'Bird' object has no attribute 'sing'
+"""
+
+class Bird:
+    'General properties and method of birds'
+    fly = 'Whirring'
+    def __init__(self):
+        self.hungry = True
+    
+    def eat(self):
+        if self.hungry:
+            print ('Aaaah...')
+            self.hungry = False
+        else:
+            print ('No,Thanks!')
+
+class Apodidae(Bird):
+    def __init__(self):
+        #super(Apodidae,self).__init__() ///使用super()函数防止超类的初始化构造方法
+        Bird.__init__(self) #///也可以用父类.__init__(self)替代super函数，但是super(Apodidae,self)
+        self.sound= 'Squawk!'
+    def sing(self):
+        print (self.sound)
+
+blackswift = Apodidae()
+blackswift.eat()
+"""
+Traceback (most recent call last):
+  File "e:\tim\prac\gh\caDesign\07_class_01_bird.py", line 89, in <module>
+    blackswift.eat()
+  File "e:\tim\prac\gh\caDesign\07_class_01_bird.py", line 75, in eat
+    if self.hungry:
+AttributeError: 'Apodidae' object has no attribute 'hungry'
+"""
+
