@@ -103,26 +103,6 @@ except IOError as e:
     
 #/// 创建一个收集实体的list
 objs = []
-#///离散得到满足规范的楼梯踏步与踢面的尺寸
-"""
-step_size = []
-#///以下为住宅楼梯规范
-for t in xrange(180,360,3):
-    for r in xrange(120,210,3):
-        if (550<=t+2*r<=650) and (r/t <=(7/11)):
-            step_size.append((t,r))
-            #print ("踏面:%s,阶高:%s"%(t,r))
-
-#///给出一个box，box 有length,width,height三个属性，让楼梯限制在三个属性内，后面有反馈误差
-#///在尺寸满足的前提下，根据给出的box_width和box_length得到楼梯的步数
-countList = []
-for count in xrange(0,20):
-    for i in xrange(len(step_size)):
-        #///用tolerance来控制精度
-        if (abs((count-1)*step_size[i][0]+platformWidth-box_width)<=tolerance) and (abs((count*2*step_size[i][1])-box_height)<=tolerance ):
-            countList.append((count,step_size[i][0],step_size[i][1]))
-#seed = rand.randint(0,len(countList)) 怎么做到随机
-"""
 
 #///记录下初始的box长宽高三属性,能够在后面反馈出误差
 init_l = box_length
