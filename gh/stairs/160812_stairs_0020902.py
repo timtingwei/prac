@@ -38,11 +38,11 @@ def settype(housingType=0):
         housingType:int,0:tinyhouse
                         1:public housing internal
                         2:public housing external
-    Returns:domain_t,tuple
-            domain_r,tuple
-            domain_tadd2r,tuple,
-            commendSlope,float
-            basicSlope,float
+    Returns:list,domain_t,tuple
+                 domain_r,tuple
+                 domain_tadd2r,tuple,
+                 commendSlope,float
+                 basicSlope,float
     """
     typeRange = [0,1,2]
     assert housingType in typeRange ,'Please set type between [0,2]'
@@ -80,12 +80,72 @@ def getcount(stepsize,boxsize,platformWidth,epsilion):
 
 def setBoxsize(length,width,height):
     """Set box size surround the stairs                    #///need to be more stronger
+    Parameters:
+        length:float,box length
+        width:float,box width
+        height:float,box height
+    Returns:
+        
     """
     return length,width,height
+def weight4length(box_length,stairsLength,distance):
+    """weighting value between box_length ,stairsLength and distance
+    Parameters:
+        box_length : float,length of box original
+        stairsLength : float,length of stair step original
+        distance:float,distance between two stairs original
+    Returns:
+        list,
+            [0]box_length:float,after weighting
+            [1]stairsLength:float,after weighting
+            [2]distance:float,after weighting
+    """
+    if (stairsLength*2+distance != box_length) and(distance>0):
+        dist = stairsLength*2+distance-box_length
+    #if distance>=0:
+        distance -=dist*0.4
+        stairsLength -=dist*0.3
+    #///如果间距不存在了，给他一个固定的间距。正确情况是，box_length如果太小了，保持梯段的宽度，缩小间距   
+    if (distance<=20):
+        distance = 500
+        stairsLength = (box_length-distance)/2
+    #///正确情况是，box_length如果太小了，保持梯段的宽度，缩小间距 
+    if stairsLength <=1000:
+        stairsLength = 1000
+        distance = (box_length-2*stairsLength)
+        #///如果这个时候间距也小于20了,程序不能运行
+        if distance<20:
+            distance = 20
+            print ("Error:%s"% "there is no distance betweeen stairs")
+    box_length = stairsLength*2+distance #///reload box_length with new stairsLength and distance
+    return box_length,stairsLength,distance
+def compareError(original,ultimate):
+    """feedback difference between original and ultimate for box_size
+    Parameters:
+        original:list,box_length,box_width,box_height
+    Returns:
+        compare:list,compare size between original and ultimate
+    """
+    compare = [abs(original[i]-ultimate[i]) for i in xrange(len(original))]
+    return compare
+
+def convert2thick(stairsThickness,stepCount,stepWidth,box_height):
+    """convert actual thickness to pianting thickness
+    Parameters:
+        stairsThickness:float,true thickness
+        stepCount:int,amount of stair
+        stepWidth:float
+        box_height:float,initial box height
+    Returns:
+        thick:float,paiting distance in grasshopper
+    """
+    slope_cos = ((stepCount-1)*stepWidth)/math.sqrt((box_height*0.5)**2+((stepCount-1)*stepWidth)**2)#///坡度的余弦值
+    thick = stairsThickness/slope_cos
+    return thick
 
 try:
-    print (settype())
-    print (getStepsize(settype()[0],settype()[1],settype()[2],settype()[3],settype()[4])[0])
+    #print (settype())
+    #print (getStepsize(settype()[0],settype()[1],settype()[2],settype()[3],settype()[4])[0])
     stepsize = getStepsize(settype()[0],settype()[1],settype()[2],settype()[3],settype()[4])[0]
     boxsize = setBoxsize(box_length,box_width,box_height)
     epsilion = 20
@@ -94,6 +154,23 @@ try:
     stepCount = stepCountLst[0][0]
     stepWidth = stepCountLst[0][1]
     stepHeight = stepCountLst[0][2]
+    #print ("box_length:%s,box_width:%s,box_height:%s"%(box_length,box_width,box_height))
+    
+    box_length = weight4length(box_length,stairsLength,distance)[0]
+    stairsLenght = weight4length(box_length,stairsLength,distance)[1]
+    distance = weight4length(box_length,stairsLength,distance)[2] 
+    box_weight = boxsize[1]
+    box_height = boxsize[2]  
+    thick =  convert2thick(stairsThickness,stepCount,stepWidth,box_height)
+    
+    original =  boxsize
+    ultimate = setBoxsize(box_length,box_weight,box_height)
+    #compareError(original,ultimate)
+    print ('original:%s,ultimate:%s'%(original,ultimate))
+    print (compareError(original,ultimate))
+    l,w,h = compareError(original,ultimate) #///之前的boxsize与当前的setBoxsize()比较
+
+
 except IOError as e:
     raise ('error:%s'% e)
 
@@ -109,7 +186,7 @@ init_l = box_length
 init_w = box_width
 init_h = box_height
 
-
+"""
 #///对stairsLength进行修正
 #///在distance>0的情况下，boxWidth改变对间距和楼梯宽的权重
 if (stairsLength*2+distance != box_length) and(distance>0):
@@ -129,7 +206,7 @@ if (distance<=20):
         if distance<20:
             distance = 20
             print ("Error:%s"% "there is no distance betweeen stairs")
-
+"""
 #///根据平台宽度需要大于等于楼梯宽度的规范，进行函数制约       ##########Error#########
 def PlatformWidth():
     pass
@@ -141,11 +218,14 @@ box_width = (stepCount-1)*stepWidth + platformWidth
 box_length = (stairsLength*2+distance) 
 #distance = box_length-stairsLength*2
 box_height = stepCount*2*stepHeight
+#print ("box_length:%s,box_width:%s,box_height:%s"%(box_length,box_width,box_height))
+
+"""
 #///插写梯段厚的函数
 slope_cos = ((stepCount-1)*stepWidth)/math.sqrt((box_height*0.5)**2+((stepCount-1)*stepWidth)**2)#///坡度的余弦值
 thick = stairsThickness/slope_cos
 print (stepCount)
-
+"""
 
 def AddStairsPts(x_direction=False):
     """
@@ -292,6 +372,7 @@ def moveRotate():
     
 moveRotate()
 
+"""
 #///反馈
 #width
 width = (stepCount-1)*stepWidth+platformWidth
@@ -307,7 +388,7 @@ l = (length,tol_l)
 height = stepCount*2*stepHeight
 tol_h = init_h-height
 h = (height,tol_h)
-
+"""
 
 """
 #///160813
