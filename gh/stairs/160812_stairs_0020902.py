@@ -11,7 +11,7 @@ def getStepsize(domain_t,domain_r,domain_tadd2r,commendSlope,basicSlope,specialT
         commendSlope:float,r/t
         basicSlope:r/t
     Returns:
-        sizeLst:list,contains step's weight and height in tuple                                    #///maybe should contains stairs length
+        sizeLst:list,contains steps weight and height in tuple                                    #///maybe should contains stairs length
     """
     if specialType: #when norm is loose , take basic slope
         slope = basicSlope 
@@ -53,12 +53,10 @@ def settype(housingType=0):
     else:
         domain_t, domain_r, domain_tadd2r, commendSlope, basicSlope= (300,1000),(0,160),(550,650),7/11,7/11
     return domain_t,domain_r,domain_tadd2r,commendSlope,basicSlope
-try:
-    print (settype())
-    print (getStepsize(settype()[0],settype()[1],settype()[2],settype()[3],settype()[4])[0])
-except IOError as e:
-    raise ('error:%s'% e)
+
     
+
+
 def getcount(stepsize,boxsize,platformWidth,epsilion):
     """
     Parameters:
@@ -67,22 +65,46 @@ def getcount(stepsize,boxsize,platformWidth,epsilion):
         platformWidth:float,width of platform 
         epsilion:float,data error epsilion
     Returns:
-        count:int,stairs amount 
+        countLst:list,stairs size (count,stepWidth,stepHeight)
     """
+    countLst = []
     countMax = 20
+    sizeLst = getStepsize( settype()[0],settype()[1],settype()[2],settype()[3],settype()[4]  ) 
     for count in range(1,countMax):
-         
+         for size in sizeLst:
+             if (abs((count-1)*size[0]+ platformWidth - boxsize[1] )<= epsilion) and (abs(count*2*size[1] - boxsize[2] ) < epsilion ):
+                 countLst.append((count,size[0],size[1]))
+                 print ('count : %s, step_width : %s,step_height : %s'% (count,size[0],size[1]))
+    assert countLst != [] ,'couldn\'t get countLst'
+    return countLst
 
 def setBoxsize(length,width,height):
-    """Set box size                    #///need to be more stronger
+    """Set box size surround the stairs                    #///need to be more stronger
     """
     return length,width,height
+
+try:
+    print (settype())
+    print (getStepsize(settype()[0],settype()[1],settype()[2],settype()[3],settype()[4])[0])
+    stepsize = getStepsize(settype()[0],settype()[1],settype()[2],settype()[3],settype()[4])[0]
+    boxsize = setBoxsize(box_length,box_width,box_height)
+    epsilion = 20
+    stepCountLst =  (getcount (stepsize,boxsize,platformWidth,epsilion))
+    #索引stepCountLst第一个值，得到踏步的尺寸和数量
+    stepCount = stepCountLst[0][0]
+    stepWidth = stepCountLst[0][1]
+    stepHeight = stepCountLst[0][2]
+except IOError as e:
+    raise ('error:%s'% e)
+
+
     
     
     
 #/// 创建一个收集实体的list
 objs = []
 #///离散得到满足规范的楼梯踏步与踢面的尺寸
+"""
 step_size = []
 #///以下为住宅楼梯规范
 for t in xrange(180,360,3):
@@ -100,6 +122,7 @@ for count in xrange(0,20):
         if (abs((count-1)*step_size[i][0]+platformWidth-box_width)<=tolerance) and (abs((count*2*step_size[i][1])-box_height)<=tolerance ):
             countList.append((count,step_size[i][0],step_size[i][1]))
 #seed = rand.randint(0,len(countList)) 怎么做到随机
+"""
 
 #///记录下初始的box长宽高三属性,能够在后面反馈出误差
 init_l = box_length
@@ -131,10 +154,7 @@ if (distance<=20):
 def PlatformWidth():
     pass
 
-#索引countList第一个值，得到踏步的尺寸和数量
-stepCount = countList[0][0]
-stepWidth = countList[0][1]
-stepHeight = countList[0][2]
+
 
 #///重新给box的三个属性赋值
 box_width = (stepCount-1)*stepWidth + platformWidth
