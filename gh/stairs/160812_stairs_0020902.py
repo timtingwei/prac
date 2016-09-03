@@ -32,7 +32,7 @@ def getStepsize(domain_t,domain_r,domain_tadd2r,commendSlope,basicSlope,specialT
         #print ("踏面:%s,阶高:%s"%(sizeLst[0],size[1]))
         return sizeLst
 
-def settype(housingType=0):
+def setType(housingType=0):
     """select achitecture type:
     Parameters:
         housingType:int,0:tinyhouse
@@ -54,7 +54,7 @@ def settype(housingType=0):
         domain_t, domain_r, domain_tadd2r, commendSlope, basicSlope= (300,1000),(0,160),(550,650),7/11,7/11
     return domain_t,domain_r,domain_tadd2r,commendSlope,basicSlope
 
-def getcount(stepsize,boxsize,platformWidth,epsilion):
+def getCount(stepsize,boxsize,platformWidth,epsilion):
     """
     Parameters:
         stepsize:tuple,contains step's weight and height
@@ -66,7 +66,7 @@ def getcount(stepsize,boxsize,platformWidth,epsilion):
     """
     countLst = []
     countMax = 20
-    sizeLst = getStepsize( settype()[0],settype()[1],settype()[2],settype()[3],settype()[4]  ) 
+    sizeLst = getStepsize( setType()[0],setType()[1],setType()[2],setType()[3],setType()[4]  ) 
     for count in range(1,countMax):
          for size in sizeLst:
              if (abs((count-1)*size[0]+ platformWidth - boxsize[1] )<= epsilion) and (abs(count*2*size[1] - boxsize[2] ) < epsilion ):
@@ -237,7 +237,7 @@ def StairsPolyLine(*ptLists):
     return pls   
 
 
-def getpath(distance,direction=True):
+def getPath(distance,direction=True):
     """get path from basic direction and distance
     Parameters:
         distance:float,length of path
@@ -285,7 +285,7 @@ def platform(stepCount,stepWidth,stepHeight,stairsLength,beamWidth,beamHeight,pl
     
     #creat platform polyline
     platform_pl = rs.AddPolyline(plat_pts)
-    platform = ExtrudeStairs(platform_pl,getpath(2*stairsLength+distance,True))
+    platform = ExtrudeStairs(platform_pl,getPath(2*stairsLength+distance,True))
     return platform
     
 
@@ -298,12 +298,12 @@ def moveRotate(objs,trans):
     
 
 try:
-    #print (settype())
-    #print (getStepsize(settype()[0],settype()[1],settype()[2],settype()[3],settype()[4])[0])
-    stepsize = getStepsize(settype()[0],settype()[1],settype()[2],settype()[3],settype()[4])[0]
+    #print (setType())
+    #print (getStepsize(setType()[0],setType()[1],setType()[2],setType()[3],setType()[4])[0])
+    stepsize = getStepsize(setType()[0],setType()[1],setType()[2],setType()[3],setType()[4])[0]
     boxsize = setBoxsize(box_length,box_width,box_height)
     epsilion = 20
-    stepCountLst =  (getcount (stepsize,boxsize,platformWidth,epsilion))
+    stepCountLst =  (getCount (stepsize,boxsize,platformWidth,epsilion))
     #索引stepCountLst第一个值，得到踏步的尺寸和数量
     stepCount = stepCountLst[0][0]
     stepWidth = stepCountLst[0][1]
@@ -332,8 +332,8 @@ try:
     lines = StairsPolyLine(a,b)
     print (lines)
     #stairsStep = ExtrudeStairs(lines,False,True)
-    stairs1_step = ExtrudeStairs(lines[0],getpath(stairsLength,False))
-    stairs2_step = ExtrudeStairs(lines[1],getpath(stairsLength,True))
+    stairs1_step = ExtrudeStairs(lines[0],getPath(stairsLength,False))
+    stairs2_step = ExtrudeStairs(lines[1],getPath(stairsLength,True))
     objs.append(stairs1_step)
     objs.append(stairs2_step)
     plat = platform(stepCount,stepWidth,stepHeight,stairsLength,beamWidth,beamHeight,platformThickness)
