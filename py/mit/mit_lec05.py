@@ -44,7 +44,7 @@ def sqrtRootBi(n,epsilon):
     low = 0
     high = n
     guess = (low + high)/2
-    while abs(guess*guess - n)>epsilon or times<100: #///while用于次数未知
+    while abs(guess*guess - n)>epsilon and times<100: #///while用于次数未知
         #print ('low:%s,high:%s,guess:%s' % (low,high,guess)) ///用于检查
         if ( guess * guess < n ):
             low = guess
@@ -61,3 +61,15 @@ def sqrtRootBi(n,epsilon):
 print (sqrtRootBi(9,0.01))
 
 print (True or False)
+
+def testBi():
+    print ('      squareRoot(4, 0.0001 )')
+    print (sqrtRootBi(4,0.0001))
+    print ('      squareRoot(9, 0.0001 )')
+    print (sqrtRootBi(9,0.0001))
+    print ('      squareRoot(2, 0.0001 )')
+    print (sqrtRootBi(2,0.0001))
+    print ('      squareRoot(0.25, 0.0001 )')
+    print (sqrtRootBi(0.25,0.00000001))
+
+testBi()
