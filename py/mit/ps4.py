@@ -38,6 +38,17 @@ def testNestEggFixed():
 
 def nestEggVariable(salary, save, growthRates):
     # TODO: Your code here.
+    eachYearSalary = salary
+    savingsRecord = []
+    savings = salary * (save/100)
+    savingsRecord.append(savings)
+    
+    for i in range(len(growthRates)-1):
+        eachYearSalary = eachYearSalary + (growthRates[i+1]/100)*eachYearSalary
+        savings = savings + eachYearSalary * (save / 100)
+        savingsRecord.append(savings)
+    return savingsRecord
+    
     """
     - salary: the amount of money you make each year.
     - save: the percent of your salary to save in the investment account each
@@ -57,7 +68,12 @@ def testNestEggVariable():
     # [1000.0, 2040.0, 3142.0, 4142.0, 5266.2600000000002]
 
     # TODO: Add more test cases here.
-
+    salary      = 12000
+    save        = 50
+    growthRates = [3, 4, 5, 0, 3]
+    savingsRecord = nestEggVariable(salary, save, growthRates)
+    print (savingsRecord)
+testNestEggVariable()
 #
 # Problem 3
 #
@@ -72,6 +88,12 @@ def postRetirement(savings, growthRates, expenses):
     - return: a list of your retirement account value at the end of each year.
     """
     # TODO: Your code here.
+    savingsRecord = []
+    for i in range(len(growthRates)):
+        savings = savings*(1+(growthRates[i]/100))-expenses
+        savingsRecord.append(savings)
+    return savingsRecord
+        
 
 def testPostRetirement():
     savings     = 100000
@@ -82,9 +104,13 @@ def testPostRetirement():
     # Output should have values close to:
     # [80000.000000000015, 54000.000000000015, 24000.000000000015,
     # -4799.9999999999854, -34847.999999999985]
-
+    savings     = 1000000
+    growthRates = [10, 5, 0, 5, 1]
+    expenses    = 100000
+    savingsRecord = postRetirement(savings, growthRates, expenses)
+    print (savingsRecord)
     # TODO: Add more test cases here.
-
+testPostRetirement()
 #
 # Problem 4
 #
