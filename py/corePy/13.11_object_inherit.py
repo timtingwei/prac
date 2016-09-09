@@ -184,7 +184,12 @@ d = SortedKeyDict((('zheng-cai',67),('hui-jun',68),('xin-yi',2)))
 print (d)
 #{'xin-yi': 2, 'zheng-cai': 67, 'hui-jun': 68}
 
-print ('By iterator:'.ljust(12),[key for key in d])             #///ljust(12)的用法
+print ('By iterator:'.ljust(12),[key for key in d])             #///ljust(12)的用法:str.ljust(width,[,fillchar]左对齐,width表示总长度，fillchar表示填充的内容，缺省' '
 print ('By keys():'.ljust(12),d.keys())
 #By iterator: ['xin-yi', 'zheng-cai', 'hui-jun']
 #By keys():   dict_keys(['xin-yi', 'zheng-cai', 'hui-jun'])
+
+print ('my name :'.ljust(12),'Tim')
+print ('my age :'.ljust(12),'21')
+#my name :    Tim
+#my age :     21
