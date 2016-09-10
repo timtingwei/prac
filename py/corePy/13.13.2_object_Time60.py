@@ -1,5 +1,6 @@
 #13.13.2_object_Time60.py
 
+#数值定制
 #用来操作时间，精确到小时和分
 
 class Time60(object):
@@ -51,7 +52,7 @@ thu = Time60(11,44)
 print (wed + thu )
 #32 : 89
 
-#///MODO： 原位相加
+#///MODO： 原位相加:原位前后修改了原来的对象，而没有创建一个新的对象
 
 class Time60(object):
     def __init__(self,hr,min):
@@ -74,6 +75,57 @@ class Time60(object):
 mon = Time60(10,30)
 tue = Time60(11,15)
 print (mon + tue)
+#21 : 45
+print (id(tue))
+#42513360
 tue += mon
 print (tue)
 #21 : 45
+print (id(tue))
+#42513360
+
+#print (tue - mon)
+"""
+Traceback (most recent call last):
+  File "e:\tim\prac\py\corePy\13.13.2_object_Time60.py", line 87, in <module>
+    print (tue - mon)
+TypeError: unsupported operand type(s) for -: 'Time60' and 'Time60'
+"""
+
+
+#///time60.py
+#中级定制
+
+class Time60(object):
+    'Time60 - track hours and minutes'
+    def __init__(self,hr,min):
+        self.hour = hr
+        self.min = min
+
+    def __str__(self):
+        return '%d : %d'%(self.hour,self.min)
+
+    def __add__(self,other):
+        'Time60 - overloading the addition operator'
+        #self.hour += other.hour
+        #self.min += other.min
+        #return self
+        return self.__class__(self.hour+ other.hour,self.min + other.min)    #///在类函数中调用类名的方法 self.__class__()
+    
+    def __iadd__(self,other):   #///没分清楚两者的区别是什么
+        'Time60 - overloading in-place addition'
+        self.hour += other.hour
+        self.min += other.min
+        return self
+
+    __repr__ = __str__
+
+mon = Time60(11,10)
+tue = Time60(10,15)
+print (mon)
+print (mon+tue)
+#print (dir(Time60))
+mon += tue
+print (mon)
+    
+    
