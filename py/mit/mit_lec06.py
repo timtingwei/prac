@@ -91,7 +91,7 @@ def showLists():
     Ivys.remove('Harvard')
     print (Univs)
 
-#testBi()
+testBi()
 #compareMethods()
 showLists()
 
