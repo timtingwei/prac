@@ -5,34 +5,53 @@ import random
 #对矩形的边长赋值
 a = 10 #长为a
 b = 20 #高为b
-n = 4 #长边分为n段
-m = 6 #高边分为m段
-recPts_list = [[0,0,0],[0,b,0],[a,b,0],[a,0,0],[0,0,0]]
-pts_dict = {} #储存网格点的索引位置和坐标值
-sidePts_dict = {}
-for i in range (n+1):
-    for j in range (m+1):
-        key = '%d,%d'%(i,j)
-        pts_dict[key] = [i*(a/n),j*(b/m),0] #得到每个点的{索引位置(i,j)：[x,y,z])}的索引字典
-        if i == 0 or j == 0 or i == n or j == m:
-            sidePts_dict[key] = pts_dict[key]
-            #print ((i,j),sidePts_dict[(i,j)])
+n = 3 #长边分为n段
+m = 2 #高边分为m段
+#///获得角点的坐标
+def getCornerPt(a,b):
+    """get corner points in grid
+    Paras:
+        a:rectangle length,float
+        b:rectangle height,float
+    Returns:
+        recPts_list:list,coninsit of pt list,[[x1,y1,z1]]
+    """
+    recPts_list = [[0,0,0],[0,b,0],[a,b,0],[a,0,0],[0,0,0]]
+    return recPts_list
 
- 
+def getSidePt(a,b,n,m):
+    """get all points in gird and points at sides 
+    Paras:
+        a,b,n,m
+    Returns:
+        pts_dict:dict,key=string, 'index_x,index_y' value =list,coordinate ,all points in grid
+        sidePts_dict:dict, points in side
+    """
+    pts_dict = {} #储存网格点的索引位置和坐标值
+    sidePts_dict = {}
+    for i in range (n+1):
+        for j in range (m+1):
+            key = '%d,%d'%(i,j)
+            pts_dict[key] = [i*(a/n),j*(b/m),0] #得到每个点的{索引位置(i,j)：[x,y,z])}的索引字典
+            if i == 0 or j == 0 or i == n or j == m:
+                sidePts_dict[key] = pts_dict[key]
+                #print ((i,j),sidePts_dict[(i,j)])
+    return pts_dict,sidePts_dict
 
-#print (sidePts_dict)
-#计算边界上点每两点之间的距离
-distance_dict = {}
-for sidePt_i in sidePts_dict: #循环索引的还是key
-    for sidePt_j in sidePts_dict:
-        key = '%s;%s'%(sidePt_i,sidePt_j)
-        dist = math.sqrt(((sidePts_dict[sidePt_i][0] - sidePts_dict[sidePt_j][0]) ** 2 + (sidePts_dict[sidePt_i][1] - sidePts_dict[sidePt_j][1]) ** 2)) #直角三角形计算两点距离
-        distance_dict[key] = dist
-#print (distance_dict)
+ def getDistance4SidePts(sidePts_dict):
+    #计算边界上点每两点之间的距离,
+    distance_dict = {}
+    for i in sidePts_dict: #循环索引的还是key
+        for j in sidePts_dict:
+            key = '%s;%s'%(i,j)
+            dist = math.sqrt(((sidePts_dict[i][0] - sidePts_dict[j][0]) ** 2 + (sidePts_dict[i][1] - sidePts_dict[j][1]) ** 2)) #直角三角形计算两点距离
+            distance_dict[key] = dist
+    print (len(distance_dict))
 
 def filterDistance(distance_dict):
     #过滤连线的规则，同一边上的线不相连，只有异边之间的点可以相连
     #网格上的索引为(a1,b1) (a2,b2) 同时满足 a1 != a2, b1 != b2 的点被留下来，其余被删去
+    #
     new_distance_dict = distance_dict
     for key in new_distance_dict:
         if key[0]==key[4] or key[2]==key[6]:
@@ -62,7 +81,7 @@ print (sortDict)
 #得到距离最小x条连线的中点list:midPt_list
 #从x条线中随机得到y条
 x = 10
-y = 7
+y = 3
 def byDist(t):
     #定义一个用于sorted的排序方式
     return t[1]
@@ -79,6 +98,7 @@ reMinDist_list = []
 
 for i in range(y): #在x条线中，随机再选择y条
     reMinDist_list.append(random.choice(minDist_list))
+print (reMinDist_list)
 midPt_list = []
 for minDist in reMinDist_list:
     #print (minDist[0])
@@ -86,7 +106,7 @@ for minDist in reMinDist_list:
     #print (firstPt,secondPt,'type :%s'%(type(firstPt)))                                  #MODO:在创建字典的时候，是使用字符串还是元组
     minPt = [(sidePts_dict[firstPt][0]+sidePts_dict[secondPt][0])*0.5,(sidePts_dict[firstPt][1]+sidePts_dict[secondPt][1])*0.5,0]
     midPt_list.append(minPt)
-#print (midPt_list)
+
 
 #得到相应的半径list,值域范围根据场地的大小决定,r_list
 r_max = a/m * 1
@@ -96,6 +116,8 @@ for r_radius in range(len(midPt_list)):
     r = random.random()*r_max + r_min
     r_list.append(r)
 print (len(r_list))
+
+
 def dataWrite():
     #print (r_list)
     #with open('E:\tim\prac\py\class\haystack','w') as f:
@@ -173,5 +195,9 @@ filterDistance(distance_dict)
 
 test()
 
-dataWrite()
+#dataWrite()
 #testWrite()
+"""
+MODO:///排错：
+160916,连线方法不合理导致gh出现重复的点:5:4 --> 4:5 ,4:5 --> 5:4连两次 
+"""
