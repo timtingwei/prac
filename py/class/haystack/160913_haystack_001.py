@@ -22,7 +22,6 @@ def flowingParameter(a_domain,b_domain,n_domain,m_domain,x_domain,y_domain,r_max
     y = int(random.random()*y_domain[1])+y_domain[0]
     r_max = random.random()*r_max_domain[1]+r_max_domain[0]
     r_min = random.random()*r_min_domain[1]+r_min_domain[0]
-    print (a)
     return a,b,n,m,x,y,r_max,r_min
 
 
@@ -241,70 +240,17 @@ def dataWrite(recPts_list,midPts_list,radius_list):
     print ('dataWrite process has been finished..')
 
 
-"""
+
 def test():
-    #对矩形的边长赋值
-    a = 10 #长为a
-    b = 20 #高为b
-    n = 3 #长边分为n段
-    m = 7 #高边分为m段
-    x = 10 #选择x条最小线段随机
-    y = 8 #随机得到的点数
-    r_max,r_min = 1,0.2 #定义半径极值的倍数
-
-    
-    sidePts_list = expand2LinarOrder(n,m,setPtCoordinate(a,b,n,m)[1])
-    distance_dict = getDistance(sidePts_list)
-    #print (distance_dict)
-    new_distance_dict = filterDistance(distance_dict)  #///删除在同一边上的连线
-    #print (new_distance_dict)
-    convert = Convert()
-    distance_list = convert.dict2list(new_distance_dict)
-    #print (distance_list)
-    sorted_distance_list = sortedDistance(distance_list)
-
-    minLine_List = choiceMinLine(sorted_distance_list,x,y)
-
-    pt1_list = separeteConstruction(minLine_List)[0]
-    pt2_list = separeteConstruction(minLine_List)[1]
-
-    #寻找计算中点，并随机半径
-    recPts_list = getCornerPt(a,b)
-    midPts_list = []
-    radius_list = []
-    sidePts_dict = setPtCoordinate(a,b,n,m)[1]
-    for i in range(len(pt1_list)):
-        firstPt = getPtCoordinate(sidePts_dict,pt1_list[i])
-        secondPt = getPtCoordinate(sidePts_dict,pt2_list[i])
-        midPt = getMidPoint(firstPt,secondPt)
-        midPts_list.append(midPt)
-        radius_list.append(choiceRadius(a,b,n,m,r_max,r_min))
-    #print (recPts_list)
-    #print (midPts_list)
-    #print (radius_list)
-    for t in range(20):
-        dataWrite(recPts_list,midPts_list,radius_list)
-        a,b,n,m,x,y,r_max,r_min = flowingParameter((10,20),(10,15),(3,6),(3,10),(10,20),(3,9),(0.4,1.3),(0.1,0.5))
-        time.sleep(1)
-        print ('%d :reset data' % t)
-"""
-def test1():
     """
         a:length,b:height,n:divide_length,m:divide_height,x:min_range,y:min_count,r_max_min:radius time
     """
-    #对矩形的边长赋值
-    a = 10 #长为a
-    b = 20 #高为b
-    n = 3 #长边分为n段
-    m = 7 #高边分为m段
-    x = 10 #选择x条最小线段随机
-    y = 8 #随机得到的点数
-    r_max,r_min = 1,0.2 #定义半径极值的倍数
+
     a_domain,b_domain,n_domain,m_domain,x_domain,y_domain,r_max_domain,r_min_domain = (10,20),(10,15),(3,6),(3,10),(10,20),(3,5),(0.4,0.8),(0.1,0.5)
     
-    for t in range(20):
+    for t in range(60):
         a,b,n,m,x,y,r_max,r_min = flowingParameter(a_domain,b_domain,n_domain,m_domain,x_domain,y_domain,r_max_domain,r_min_domain)
-        print (x,y)
+        print ('length:%s;height:%s;divide_length:%s;divide_height:%s,min_range:%s;min_count:%s,r_max:%s;r_min:%s'%(a,b,n,m,x,y,r_max,r_min))
         print ('%d :reset data' % t)
         sidePts_list = expand2LinarOrder(n,m,setPtCoordinate(a,b,n,m)[1])
         distance_dict = getDistance(sidePts_list)
@@ -337,8 +283,8 @@ def test1():
         #print (radius_list)
         dataWrite(recPts_list,midPts_list,radius_list)
         time.sleep(1)
-#test()      
-test1()
+test()      
+
 
 """
 MODO:///排错：
