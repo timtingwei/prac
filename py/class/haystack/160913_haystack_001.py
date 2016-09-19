@@ -107,6 +107,7 @@ def getDistance(sidePts_list):
             key = '%s;%s'%(sidePts_list[i][0],sidePts_list[j][0])
             dist = math.sqrt(((sidePts_list[i][1][0] - sidePts_list[j][1][0]) ** 2 + (sidePts_list[i][1][1] - sidePts_list[j][1][1]) ** 2)) #直角三角形计算两点距离
             distance_dict[key] = dist 
+    print (distance_dict)
     return distance_dict
 
 class Convert(object):
@@ -248,7 +249,7 @@ def test():
 
     a_domain,b_domain,n_domain,m_domain,x_domain,y_domain,r_max_domain,r_min_domain = (10,20),(10,15),(3,6),(3,10),(10,20),(3,5),(0.4,0.8),(0.1,0.5)
     
-    for t in range(60):
+    for t in range(50):
         a,b,n,m,x,y,r_max,r_min = flowingParameter(a_domain,b_domain,n_domain,m_domain,x_domain,y_domain,r_max_domain,r_min_domain)
         print ('length:%s;height:%s;divide_length:%s;divide_height:%s,min_range:%s;min_count:%s,r_max:%s;r_min:%s'%(a,b,n,m,x,y,r_max,r_min))
         print ('%d :reset data' % t)
