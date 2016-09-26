@@ -22,9 +22,15 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="class\form\primary_elements\1609025_PE_points.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="vsPy.py" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="class\" />
+    <Folder Include="class\form\" />
+    <Folder Include="class\form\primary_elements\" />
     <Folder Include="prac\" />
   </ItemGroup>
   <PropertyGroup>
