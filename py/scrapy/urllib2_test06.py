@@ -17,3 +17,5 @@ try: a = 10 / 0
 
 except ZeroDivisionError as e:
     print ('except:',e) 
+
+#('except:', ZeroDivisionError('integer division or modulo by zero',))
