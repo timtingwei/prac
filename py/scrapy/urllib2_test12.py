@@ -26,3 +26,6 @@ opener.open(a_url)
 #安装 opener.
 #现在所有调用 urllib2.urlopen 将用我们的 opener
 urllib2.install_opener(opener)
+
+
+#这部分不是很懂
