@@ -43,6 +43,7 @@ except URLError,e:
     if hasattr(e,'code'):
         print  'the server couldn\'t fulfill the request.' 
         print 'Error code:',e.code
+        ##HTTP product a integer 'code'
 
     elif hasattr(e,'reason'):
         print 'We failed to reach a server'
