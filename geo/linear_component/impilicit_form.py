@@ -14,8 +14,8 @@ def impilicit_form(point,line):
 
 def start2():
 
-    point = [-1,-1]
-    line = [2,2]
+    point = [2,0]
+    line = [9,-1]
     impilicit_form(point,line)
 
 start2()
