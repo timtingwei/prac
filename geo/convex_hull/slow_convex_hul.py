@@ -50,7 +50,12 @@ def givePoints():
 def impilicit_form(point,line):                                        ### judgement side of point wrong
     vectorLine = [line[1][i]-line[0][i] for i in range(len(line[0]))]
     normal = [-vectorLine[1], vectorLine[0]]
-    dot = sum ([ ( point[i] * normal[i]) for i in range(len(point))])
+    distance = line[0][0] * normal[0] + line[0][1] * normal[1]
+    #print 'distance : ',distance
+    #print 'normal : ',normal
+    #print 'point : ' , point
+    dot = sum ([ ( point[i] * normal[i]) for i in range(len(point))]) - distance 
+    #print 'dot : ',dot
     if dot > 0 :                                                       #left ---> False  
         print 'positive'
         return False 
