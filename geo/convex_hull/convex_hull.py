@@ -1,12 +1,16 @@
-#ConvexHull version 0.2
+#ConvexHull version 0.3  
+#revise condition of same x-coordinate sorted  ---> add funtion xySorted()
 import random 
 
 def get_points(number):
     points = [[random.random()*5 , random.random()*5 ] for i in range(number)]
     return points
 
-def by_first(t):
+def by_first_x(t):
     return t[0]
+
+def by_first_y(t):
+    return t[1]
 
 def which_turn(target_pt,point0_line,point1_line):
     vecLine = [point1_line[0] - point0_line[0] , point1_line[1] -point0_line[1]]
@@ -22,13 +26,36 @@ def which_turn(target_pt,point0_line,point1_line):
     else:                                                                                            #result = 0 --->on line --->       --->  None
         #print 'judge_whichSide : on line'
         return None
+def xySorted(P):
+    #deal with the condition same x-coordinate
+    sort_points = sorted(P,key = by_first_x)
+    sort_points.append(['spam'])                #use for loop fullfill
+    div_points = []
+    sub_points = []
+    sub_points.append(sort_points[0])
+    for i in range(1,len(sort_points)):
+        if sort_points[i][0] == sort_points[i-1][0]:
+            sub_points.append(sort_points[i])
+        else:
+            div_points.append(sub_points)
+            sub_points = []
+            sub_points.append(sort_points[i])
+    all_points = []
+    for sub_points in div_points:
+        new_sub_points = sorted(sub_points,key = by_first_y)
+        for new_point in new_sub_points:
+            all_points.append(new_point)
+    return all_points
+
 
 def ConvexHull(P):
     #intput : a set P of points in the plane
     #output : A list containing the vertices of CH(P) in the clockwise order
     
     #sort the points by x-coordinate,resulting in a sequence p1,...,pn
-    p_sorted = sorted(P,key = by_first)
+    #but sometimes x-coordinate  is not well defined,they are same
+    p_sorted = xySorted(P)
+    print 'p_sorted is ',p_sorted
     upper_l = []
     
     upper_l.append(p_sorted[0])
@@ -54,8 +81,11 @@ def ConvexHull(P):
     return sum_l
 
 def start():
-    number = 100
-    points = get_points(number)
+    number = 10
+    #points = get_points(number)
+    points = [[0,1],[0,2],[0,3],[-1,4],[-2,2],[2,2],[3,0],[3,-2],[2,-1]]             #points  x -coordinate  is not well defined
+    #points = [[0,1],[0,2],[0,3],[-1,4],[-2,2],[2,2],[3,0],[3,-2],[2,-1],[-1.955551,2.111111]]
+    print 'points:',points
     sum_l = ConvexHull(points)
     print 'sum_l :',sum_l
     
