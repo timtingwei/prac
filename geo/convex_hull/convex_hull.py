@@ -8,17 +8,21 @@ def get_points(number):
 def by_first(t):
     return t[0]
 
-def which_turn(pt1,pt2,pt3):                                                            #maybe wrong ,
-    vecLine = [pt2[0] - pt1[0] , pt2[1] - pt1[1]]
-    normal = [-vecLine[1],vecLine[0]]
-    distance = normal[0] * pt1[0] + normal[1] * pt1[1]
-    result = normal[0] * pt3[0] + normal[1] * pt3[1] - distance
-    if result > 0:                                                                                  #result > 0 --->positive ---> left  --> 1
-        return True
-    elif result < 0 :                                                                               #result < 0 --->negative ---> right  --> 0
+def which_turn(target_pt,point0_line,point1_line):
+    vecLine = [point1_line[0] - point0_line[0] , point1_line[1] -point0_line[1]]
+    normal = [-vecLine[1] ,vecLine[0] ]
+    vec_p2x = [target_pt[0] - point0_line[0] , target_pt[1] - point0_line[1]]                      #vector point on line to target point
+    result = normal[0] * vec_p2x[0] + normal[1] *  vec_p2x[1]
+    if result > 0 :                                                                               #result > 0 --->positive ---> left  --> 1
+        #print 'judge_whichSide : positive'
+        return True 
+    elif result < 0:                                                                               #result < 0 --->negative ---> right  --> 0
+        #print 'judge_whichSide : negative'
         return False
     else:                                                                                            #result = 0 --->on line --->       --->  None
-        return None           
+        #print 'judge_whichSide : on line'
+        return None
+
 def ConvexHull(P):
     #intput : a set P of points in the plane
     #output : A list containing the vertices of CH(P) in the clockwise order
@@ -39,7 +43,7 @@ def ConvexHull(P):
     lower_l.append(p_sorted[-2])
     for i_lower in range(len(p_sorted)-3,-1,-1):                                   #revise 0 to -1  
         lower_l.append(p_sorted[i_lower])
-        lower_bool = which_turn(lower_l[-3],lower_l[-2],lower_l[-1])
+        #lower_bool = which_turn(lower_l[-3],lower_l[-2],lower_l[-1])
         while (len(lower_l)>2) and (which_turn(lower_l[-3],lower_l[-2],lower_l[-1]) ):                                 # revise while to if  which_turn must be in while....shit
             lower_l.pop(-2)
     lower_l.pop(0)
