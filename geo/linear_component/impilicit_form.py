@@ -1,5 +1,5 @@
 
-def impilicit_form(point,pts_on_line):
+def impilicit_form(point,pts_on_line):          ### it's wrong !
     #vec_n = (-line[1],line[0])
     #X =  [point[0],point[1]]
     #d =  point_on_line[0] * vec_n[0] +  point_on_line[1] * vec_n[1]   
@@ -34,13 +34,32 @@ def judge_whichSide(target_pt,point0_line,point1_line):
         print 'judge_whichSide : on line'
         return 2
 
+def judge_whichSide_det(p,q,r):
+    """
+        | 1 px py |
+    D = | 1 qx qy |
+        | 1 rx ry |
+    determines whether r lies left or right of the line
+    """
+    det = q[0]*r[1] + p[0]*q[1] + r[0]*p[1] - q[0]*p[1] - r[0]*q[1] - p[0]*r[1]
+    if det > 0 : 
+        print 'judge_whichSide_det : positive'
+        return 0 
+    elif det < 0:
+        print 'judge_whichSide_det : negative'
+        return 1
+    else: 
+        print 'judge_whichSide_det : on line'
+        return 2
+
 def start2():
 
-    point = [2,0]
+    point = [1,0]
     pts_on_line = [[1,2],[-1,3]]
-    impilicit_form(point,pts_on_line)
 
+    impilicit_form(point,pts_on_line)
     judge_whichSide(point,pts_on_line[0],pts_on_line[1])
+    judge_whichSide_det(point,pts_on_line[0],pts_on_line[1])
 
 
 start2()
