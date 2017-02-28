@@ -1,9 +1,12 @@
-#ConvexHull version 0.3  
-#revise condition of same x-coordinate sorted  ---> add funtion xySorted()
+#ConvexHull version 0.4  
+#revise condition of same x-coordinate sorted  ---> add funtion xySorted()           what sorted with dictionary
+#deal with rounding errors that may distort the outcome of test                      --> it seems no rounding error in my pragram...
 import random 
+import time
+
 
 def get_points(number):
-    points = [[random.random()*5 , random.random()*5 ] for i in range(number)]
+    points = [[random.random()*0.0000001 , random.random()*0.0000001 ] for i in range(number)]
     return points
 
 def by_first_x(t):
@@ -81,9 +84,9 @@ def ConvexHull(P):
     return sum_l
 
 def start():
-    number = 10
-    #points = get_points(number)
-    points = [[0,1],[0,2],[0,3],[-1,4],[-2,2],[2,2],[3,0],[3,-2],[2,-1]]             #points  x -coordinate  is not well defined
+    number = 6
+    points = get_points(number)
+    #points = [[0,1],[0,2],[0,3],[-1,4],[-2,2],[2,2],[3,0],[3,-2],[2,-1]]             #points  x -coordinate  is not well defined
     #points = [[0,1],[0,2],[0,3],[-1,4],[-2,2],[2,2],[3,0],[3,-2],[2,-1],[-1.955551,2.111111]]
     print 'points:',points
     sum_l = ConvexHull(points)
@@ -96,4 +99,7 @@ def start():
     f2 = open('E:/tim/prac/geo/convex_hull/sum_l.txt','w')
     f2.write(str(sum_l))
     f2.close()
-start()
+    
+for i in range(100):
+    time.sleep(1)
+    start()
