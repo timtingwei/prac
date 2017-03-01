@@ -1,6 +1,62 @@
-import random
+#weight_list version 0.2
+#simplify program from class to normal ,reduce common compute
 
+def main():
+    P = [5,4,6,8,7,9]
+    a_index = 0
+    change_a = 30
+    n = len(P)
+    min_list = [3,3,3,3,3,3]
+    toggle = True
+    
+    #//product weight list
+    weight_i = n-1
+    weight_list = [0 for wl in range(n-1)]
+    weight_list.append(1)
 
+    L = [P[i]for i in range(n)]
+    original_sum = sum(L)
+    #// give the input to change the L[a_index]
+    L[a_index] += change_a
+    #//sorted the list and match the weight index
+    sortL = sorted(L)
+    #sortIndex = [ sortL.index(L[i]) for i in range(n)]         #//maybe [L.index(sortL[i]) for i in range(n)]
+    sortIndex = [L.index(sortL[i]) for i in range(n)]
+    
+    #dt = sum(L) - original_sum                        #//original_sum - sum(L)
+    dt = original_sum - sum(L)
+    while toggle:                                     #//when toggle off indicate dt=0 and each value > value's min
+        #//distributeWeight
+        #dt = sum(L) - original_sum
+        for j in range(n):
+            #L[sortIndex[j]] += dt * weight_list[j]    #//multiply list as sort order  
+            L[j] += dt * weight_list[j]                #//multiply list as origianl order
+        dt = original_sum - sum(L)
+        if dt == 0  :                                   #// maybe needn\'t
+            toggle = False
+
+        #//testBelowMin
+        for k in range(n):
+            if L[k] - min_list[k] < 0 :               #//Error maybe L[sortIndex[i]] - min_list[sortIndex[i]] < 0 // or sortL[sortIndex[i]] - min_list[sortIndex[i]] < 0
+                L[k] = min_list[k]
+                dt = original_sum - sum(L)             #// compute sum of list after supplyment the minimum
+                #if (dt < 0):                          #// when other items are minimum ,reduce first one
+                if (dt < 0) and (weight_i>1):          #// ( weight_i > 1 )survive the condition reduce first item,and then continue add first item
+                    weight_i -= 1                      #//recontribute weight after supplyment  ex:00001 ---> 00010                     
+                    weight_list = [0 for wl in range(n-1)]
+                    weight_list.insert(weight_i,1)
+                    toggle = True                          #//toggle is on to multiply list as weight which has been revised
+    print 'P:',P
+    print 'L:',L
+
+    #//test
+    if sum(L) == original_sum:
+        print 'True'
+    else:
+        print 'False'
+main()
+
+"""
 class WeightList():
     def __init__(self,P,change_a,a_index):
         self.P = P
@@ -27,13 +83,10 @@ class WeightList():
         #print 'self.sortL after sorted:',self.sortL
         #print 'self.index in sortList():' , self.index
     
-    """
+
     def suppleMin(self):
-        for index in range(self.n):
-            dt_min = self.min[index] - self.L[index] 
-            if abs(dt_min) > 0:
-                self.L[index] += dt_min
-    """
+        pass
+
 
     def changeList(self):
         self.L[self.a_index] += self.dt
@@ -48,7 +101,7 @@ class WeightList():
         for i in range(self.n):
             self.L[self.index[i]] += self.dt * self.weight[i]
             #print 'self.L in distributeWeight',self.L
-        self.dt = self.sum - sum(self.L)
+        self.dt = self.sum - sum(self.L)                                     ### Error???
         #print 'self.dt in distributeWeight after:',self.dt
         self.dt = 0
         self.toggle = False                                                #off the toggle when distributeWeight finished,there is no dt
@@ -75,7 +128,6 @@ class WeightList():
 
 def start():
     P = [5,4,6,8,7,9]
-    print 'P:',P
     a_index = 0
     change_a = 5
     w = WeightList(P,change_a,a_index)
@@ -89,6 +141,8 @@ def start():
         
     print 'finally l:',w.L
 
-start()
+#start()
+"""
+
 
 
