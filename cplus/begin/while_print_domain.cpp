@@ -1,5 +1,5 @@
 #include <iostream>
-int main()
+int while_print_domain()
 {
 	std::cout << "please write two number as domain to print  : " << std::endl;
 	int v1 = 0, v2 = 0;

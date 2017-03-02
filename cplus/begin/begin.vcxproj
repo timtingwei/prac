@@ -76,15 +76,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="cin_sumcpp.cpp" />
     <ClCompile Include="comment.cpp" />
+    <ClCompile Include="for.cpp" />
+    <ClCompile Include="for_domain.cpp" />
+    <ClCompile Include="for_down.cpp" />
+    <ClCompile Include="for_sum.cpp" />
+    <ClCompile Include="for_sum_while.cpp" />
     <ClCompile Include="hello_world.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="print _1by1.cpp" />
     <ClCompile Include="print_mul.cpp" />
     <ClCompile Include="revise_print .cpp" />
     <ClCompile Include="right_comment.cpp" />
+    <ClCompile Include="syntax_error.cpp" />
     <ClCompile Include="test_include.cpp" />
     <ClCompile Include="while.cpp" />
+    <ClCompile Include="while_cin.cpp" />
     <ClCompile Include="while_down.cpp" />
     <ClCompile Include="while_print_domain.cpp" />
     <ClCompile Include="while_sum.cpp" />

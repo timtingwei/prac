@@ -51,5 +51,29 @@
     <ClCompile Include="while_print_domain.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="for.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="for_sum.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="for_sum_while.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="for_down.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="for_domain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="while_cin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="syntax_error.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cin_sumcpp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
