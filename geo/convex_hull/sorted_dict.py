@@ -3,11 +3,31 @@
 
 points = [[0,2],[0,1],[0,3],[-1,4],[-2,2],[2,2],[3,0],[3,-2],[2,-1]]
 
+def main(points):
+    points_dict = {}
+    index_list = []
+    for point in points:
+        points_dict[point[0]] = []
+        index_list.append(point[0])
+    index_list = list(set(points_dict))
+    for point in points:
+        points_dict[point[0]].append(point[1])
+    points_list = []
+    for i in index_list:
+        sort_list = sorted(points_dict[i])
+        points_list.append(sort_list)
+    #points_list = list(points_dict)                  //print points_list [0, 2, 3, -2, -1] 
+    print 'points_list',points_list
+        
+
+main(points)
+
+
 def by_first_x(t):
     return t[0]
 
 sort_points = sorted(points,key = by_first_x)
-print sort_points
+#print sort_points
 
 sort_points.append(['spam'])     #use for loop fullfill
 def by_first_y(t):
@@ -34,6 +54,8 @@ for sub_L in div_L:
         all_L.append(i)
 print all_L
 """
+
+"""
 div_points = []
 sub_points = []
 sub_points.append(sort_points[0])
@@ -56,3 +78,5 @@ for sub_points in div_points:
     for new_point in new_sub_points:
         all_points.append(new_point)
 print all_points
+"""
+
