@@ -7,7 +7,7 @@ import time
 
 
 def get_points(number):
-    points = [[random.random()*0.0000001 , random.random()*0.0000001 ] for i in range(number)]
+    points = [[random.random() , random.random() ] for i in range(number)]
     return points
 
 def by_first_x(t):
@@ -85,11 +85,13 @@ def ConvexHull(P):
     return sum_l
 
 def start():
-    number = 6
-    #points = get_points(number)
+    number = 400
+    points = get_points(number)
+    #points.append([0.09426228305931095, 0.4547557966706819])
+    #points.append([0.09326228305931095, 0.5547557966706819])
     #points = [[0,1],[0,2],[0,3],[-1,4],[-2,2],[2,2],[3,0],[3,-2],[2,-1]]             #points  x -coordinate  is not well defined
     #points = [[0,1],[0,2],[0,3],[-1,4],[-2,2],[2,2],[3,0],[3,-2],[2,-1],[-1.955551,2.111111]]
-    points = [[0,1],[0,4],[0,-2],[0,9],[0,10],[0,-3]]
+    #points = [[0,1],[0,4],[0,-2],[0,9],[0,10],[0,-3]]
     print 'points:',points
     sum_l = ConvexHull(points)
     print 'sum_l :',sum_l
@@ -104,7 +106,8 @@ def start():
 
 def mySleep():   
     for i in range(100):
-        time.sleep(1)
+        time.sleep(2)
         start()
 
 start()
+#mySleep()
