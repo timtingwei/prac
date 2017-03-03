@@ -1,6 +1,6 @@
 #include <iostream>
 
-int main()
+int cin_sumcpp()
 {
 	int sum = 0, value = 0;
 	while (std::cin >> value)

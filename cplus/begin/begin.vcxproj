@@ -76,6 +76,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="1.23_recordNumber.cpp" />
     <ClCompile Include="cin_sumcpp.cpp" />
     <ClCompile Include="comment.cpp" />
     <ClCompile Include="for.cpp" />
@@ -84,11 +85,17 @@
     <ClCompile Include="for_sum.cpp" />
     <ClCompile Include="for_sum_while.cpp" />
     <ClCompile Include="hello_world.cpp" />
+    <ClCompile Include="if_main.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="add_item.cpp" />
+    <ClCompile Include="member_function.cpp" />
     <ClCompile Include="print _1by1.cpp" />
     <ClCompile Include="print_mul.cpp" />
+    <ClCompile Include="redirect.cpp" />
     <ClCompile Include="revise_print .cpp" />
     <ClCompile Include="right_comment.cpp" />
+    <ClCompile Include="rw_Sales_item.cpp" />
+    <ClCompile Include="sale_book.cpp" />
     <ClCompile Include="syntax_error.cpp" />
     <ClCompile Include="test_include.cpp" />
     <ClCompile Include="while.cpp" />
@@ -96,6 +103,9 @@
     <ClCompile Include="while_down.cpp" />
     <ClCompile Include="while_print_domain.cpp" />
     <ClCompile Include="while_sum.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sales_item.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
