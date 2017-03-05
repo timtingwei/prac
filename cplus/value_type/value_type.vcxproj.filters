@@ -51,6 +51,15 @@
     <ClCompile Include="2.14_scope_sum.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="compound_type.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2.15_error_compound.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2.16_valueType.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="D:\Tutorials\C++ Primer第五版源代码\1\Sales_item.h">

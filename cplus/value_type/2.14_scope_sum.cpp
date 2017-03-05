@@ -1,6 +1,7 @@
 #include <iostream>
 
-int main(){
+int scope_sum()
+{
 	int i = 100, sum = 0;
 	for (int i = 0; i != 10; i++){
 		sum += i;

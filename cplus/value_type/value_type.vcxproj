@@ -80,9 +80,12 @@
     <ClCompile Include="2.10_whats_initialized.cpp" />
     <ClCompile Include="2.13_scope_change.cpp" />
     <ClCompile Include="2.14_scope_sum.cpp" />
+    <ClCompile Include="2.15_error_compound.cpp" />
+    <ClCompile Include="2.16_valueType.cpp" />
     <ClCompile Include="2.2.4_name_scope.cpp" />
     <ClCompile Include="2.3_unsigned.cpp" />
     <ClCompile Include="2.9_error.cpp" />
+    <ClCompile Include="compound_type.cpp" />
     <ClCompile Include="convert.cpp" />
     <ClCompile Include="declaration_definition.cpp" />
     <ClCompile Include="initialized.cpp" />
