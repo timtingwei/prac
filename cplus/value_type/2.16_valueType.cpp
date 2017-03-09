@@ -1,6 +1,6 @@
 #include <iostream>
 
-int main()
+int valueType()
 {
 	/*int i = 0, &r1 = i;
 	double d = 0, &r2 = d;
