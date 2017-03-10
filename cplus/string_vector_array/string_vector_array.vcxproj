@@ -78,10 +78,21 @@
   <ItemGroup>
     <ClCompile Include="3.1_using.cpp" />
     <ClCompile Include="3.1_using_02.cpp" />
+    <ClCompile Include="3.2.1_string01.cpp" />
+    <ClCompile Include="3.2.2_string02.cpp" />
+    <ClCompile Include="3.2.3_string03.cpp" />
+    <ClCompile Include="prac_3.10.cpp" />
+    <ClCompile Include="prac_3.11.cpp" />
     <ClCompile Include="prac_3.1_1_1.cpp" />
     <ClCompile Include="prac_3.1_1_2.cpp" />
     <ClCompile Include="prac_3.1_1_3.cpp" />
     <ClCompile Include="prac_3.1_2_1.cpp" />
+    <ClCompile Include="prac_3.2.cpp" />
+    <ClCompile Include="prac_3.4.cpp" />
+    <ClCompile Include="prac_3.5.cpp" />
+    <ClCompile Include="prac_3.6.cpp" />
+    <ClCompile Include="prac_38.cpp" />
+    <ClCompile Include="prac_39.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Sales_item.h" />
