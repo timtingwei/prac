@@ -66,6 +66,60 @@
     <ClCompile Include="prac_3.11.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="3.3_vector01.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="3.3.2_vector02.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="prac_3.14.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="prac_315.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="3.3.3_vector03.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="prac_3.16.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="prac_3.17.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="prac_3.18.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="prac_3.19.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="prac_3.20.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="3.4_iterator01.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="prac_3.21.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="prac_322.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="prac_3.23.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="3.4.2_iterator02.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="3.4.2_iterator03.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="prac_3.24.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="prac_325.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Sales_item.h">

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
       <Configuration>Debug</Configuration>
@@ -19,13 +19,13 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>v140</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>v140</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -81,16 +81,34 @@
     <ClCompile Include="3.2.1_string01.cpp" />
     <ClCompile Include="3.2.2_string02.cpp" />
     <ClCompile Include="3.2.3_string03.cpp" />
+    <ClCompile Include="3.3.2_vector02.cpp" />
+    <ClCompile Include="3.3.3_vector03.cpp" />
+    <ClCompile Include="3.3_vector01.cpp" />
+    <ClCompile Include="3.4.2_iterator02.cpp" />
+    <ClCompile Include="3.4.2_iterator03.cpp" />
+    <ClCompile Include="3.4_iterator01.cpp" />
     <ClCompile Include="prac_3.10.cpp" />
     <ClCompile Include="prac_3.11.cpp" />
+    <ClCompile Include="prac_3.14.cpp" />
+    <ClCompile Include="prac_3.16.cpp" />
+    <ClCompile Include="prac_3.17.cpp" />
+    <ClCompile Include="prac_3.18.cpp" />
+    <ClCompile Include="prac_3.19.cpp" />
     <ClCompile Include="prac_3.1_1_1.cpp" />
     <ClCompile Include="prac_3.1_1_2.cpp" />
     <ClCompile Include="prac_3.1_1_3.cpp" />
     <ClCompile Include="prac_3.1_2_1.cpp" />
     <ClCompile Include="prac_3.2.cpp" />
+    <ClCompile Include="prac_3.20.cpp" />
+    <ClCompile Include="prac_3.21.cpp" />
+    <ClCompile Include="prac_3.23.cpp" />
+    <ClCompile Include="prac_3.24.cpp" />
     <ClCompile Include="prac_3.4.cpp" />
     <ClCompile Include="prac_3.5.cpp" />
     <ClCompile Include="prac_3.6.cpp" />
+    <ClCompile Include="prac_315.cpp" />
+    <ClCompile Include="prac_322.cpp" />
+    <ClCompile Include="prac_325.cpp" />
     <ClCompile Include="prac_38.cpp" />
     <ClCompile Include="prac_39.cpp" />
   </ItemGroup>
