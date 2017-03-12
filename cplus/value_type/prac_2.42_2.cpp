@@ -1,7 +1,7 @@
 #include <iostream>
 #include "Sales_data.h"
 
-int main()
+int prac_2422()
 {
 	Sales_data total;     //total用于记录销售的总量
 	//读入第一条数据，确保有数据可以处理

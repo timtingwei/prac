@@ -87,6 +87,7 @@
     <ClCompile Include="3.4.2_iterator02.cpp" />
     <ClCompile Include="3.4.2_iterator03.cpp" />
     <ClCompile Include="3.4_iterator01.cpp" />
+    <ClCompile Include="3.5_array.cpp" />
     <ClCompile Include="prac_3.10.cpp" />
     <ClCompile Include="prac_3.11.cpp" />
     <ClCompile Include="prac_3.14.cpp" />

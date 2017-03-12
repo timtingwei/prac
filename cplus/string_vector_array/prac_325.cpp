@@ -7,7 +7,7 @@ using std::vector;
 using std::string;
 using std::iterator;
 
-int main()
+int prac_325()
 {
 	//实现分数段划分
 	vector<unsigned> scores(11, 0);
