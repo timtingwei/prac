@@ -120,7 +120,67 @@
     <ClCompile Include="prac_325.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="3.5_array.cpp">
+    <ClCompile Include="3.5_array01.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="3.5_array02.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="prac_3.30.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="prac_3.31.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="prac_3.32.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="prac_3.33.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="3.5.3_pointer_array01.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="3.5.3_pointer_array02.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="3.5.3_pointer_array03.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="3.5.3_pointer_array04.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="3.5.3_pointer_array05.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="3.5.3_pointer_array06.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="prac_3.34.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="prac_3.35.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="prac_336.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="prac_3.37.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="prac_3.39.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="prac_3.40.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="3.5.5_cstring02.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="prac_3.41.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="prac_3.42.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

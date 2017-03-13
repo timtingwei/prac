@@ -7,7 +7,7 @@ using std::vector;
 using std::string;
 using std::iterator;
 
-int array_35()
+int array01_35()
 {
 	/*//数组是一种复合类型 a[d]
 	//a是数组名字，d是数组维度。维度说明数组中元素个数，必须大于0，且是一个常量表达式
@@ -40,11 +40,11 @@ int array_35()
 
 	//理解复杂的数组声明
 	//int arr = 1;
-	int *ptrs[10];              //10个整型指针的数组
+	//int *ptrs[10];              //10个整型指针的数组
 	//int &refs[10] = /* ?*/;   //错误：不存在引用的数组
 	//int (*Parray)[10] = &arr;    //
 	//int(&arrRef)[10] = arr;
 
-
+	return 0;
 
 }
