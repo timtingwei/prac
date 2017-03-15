@@ -183,6 +183,21 @@
     <ClCompile Include="prac_3.42.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="3.6_array++01.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="3.6_array++02.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="3.6_array++03.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="prac_3,43.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="prac_3.44.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Sales_item.h">

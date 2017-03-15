@@ -8,6 +8,7 @@ using std::vector;
 using std::string;
 using std::begin; using std::end;
 using std::strcat; using std::strcpy; using std::strlen;
+using std::cend;
 
 int cstring02_355()
 {
@@ -27,6 +28,13 @@ int cstring02_355()
 	for (auto i : subVec)
 		cout << i << " ";
 	cout << endl;
+	
+	vector<int> subVec1(int_arr + 2, end(int_arr));
+	for (auto i : subVec1)
+		cout << i << " ";
+	cout << endl;
+
+
 
 	//小技巧:现代c++应该尽量使用 vector和迭代器，避免使用内置数组和指针；尽量使用string，避免使用C风格的基于数组的字符串
 

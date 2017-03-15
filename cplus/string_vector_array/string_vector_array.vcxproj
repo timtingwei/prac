@@ -96,6 +96,10 @@
     <ClCompile Include="3.5.5_cstring02.cpp" />
     <ClCompile Include="3.5_array01.cpp" />
     <ClCompile Include="3.5_array02.cpp" />
+    <ClCompile Include="3.6_array++01.cpp" />
+    <ClCompile Include="3.6_array++02.cpp" />
+    <ClCompile Include="3.6_array++03.cpp" />
+    <ClCompile Include="prac_3,43.cpp" />
     <ClCompile Include="prac_3.10.cpp" />
     <ClCompile Include="prac_3.11.cpp" />
     <ClCompile Include="prac_3.14.cpp" />
@@ -124,6 +128,7 @@
     <ClCompile Include="prac_3.40.cpp" />
     <ClCompile Include="prac_3.41.cpp" />
     <ClCompile Include="prac_3.42.cpp" />
+    <ClCompile Include="prac_3.44.cpp" />
     <ClCompile Include="prac_3.5.cpp" />
     <ClCompile Include="prac_3.6.cpp" />
     <ClCompile Include="prac_315.cpp" />
