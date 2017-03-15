@@ -198,6 +198,9 @@
     <ClCompile Include="prac_3.44.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="prac_345.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Sales_item.h">

@@ -135,6 +135,7 @@
     <ClCompile Include="prac_322.cpp" />
     <ClCompile Include="prac_325.cpp" />
     <ClCompile Include="prac_336.cpp" />
+    <ClCompile Include="prac_345.cpp" />
     <ClCompile Include="prac_38.cpp" />
     <ClCompile Include="prac_39.cpp" />
   </ItemGroup>
