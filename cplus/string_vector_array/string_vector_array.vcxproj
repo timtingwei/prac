@@ -99,6 +99,8 @@
     <ClCompile Include="3.6_array++01.cpp" />
     <ClCompile Include="3.6_array++02.cpp" />
     <ClCompile Include="3.6_array++03.cpp" />
+    <ClCompile Include="3.6_array++_question3.cpp" />
+    <ClCompile Include="last_test.cpp" />
     <ClCompile Include="prac_3,43.cpp" />
     <ClCompile Include="prac_3.10.cpp" />
     <ClCompile Include="prac_3.11.cpp" />
