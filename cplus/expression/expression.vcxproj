@@ -142,12 +142,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="4.1.1_basic.cpp" />
+    <ClCompile Include="4.1.2_precedence_associativity.cpp" />
     <ClCompile Include="4.1.3_operate_order.cpp" />
-    <ClCompile Include="4_2_arithmetic_operator.cpp" />
+    <ClCompile Include="4.2_arithmetic_operator.cpp" />
+    <ClCompile Include="4.3_logic_operator.cpp" />
+    <ClCompile Include="prac_4.1.cpp" />
+    <ClCompile Include="prac_4.11.cpp" />
+    <ClCompile Include="prac_4.12.cpp" />
     <ClCompile Include="prac_4.4.cpp" />
     <ClCompile Include="prac_4.5.cpp" />
     <ClCompile Include="prac_4.6.cpp" />
     <ClCompile Include="prac_4.7.cpp" />
+    <ClCompile Include="prac_4.8.cpp" />
+    <ClCompile Include="prac_4.9.cpp" />
+    <ClCompile Include="prac_42.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
