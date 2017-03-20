@@ -142,21 +142,51 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="4,6_member.cpp" />
     <ClCompile Include="4.1.1_basic.cpp" />
     <ClCompile Include="4.1.2_precedence_associativity.cpp" />
     <ClCompile Include="4.1.3_operate_order.cpp" />
+    <ClCompile Include="4.10_comma_operator.cpp" />
     <ClCompile Include="4.2_arithmetic_operator.cpp" />
     <ClCompile Include="4.3_logic_operator.cpp" />
+    <ClCompile Include="4.4_fuzhi.cpp" />
+    <ClCompile Include="4.5_pp_operator.cpp" />
+    <ClCompile Include="4.7_cond_operator.cpp" />
+    <ClCompile Include="4.8_bitmove_operator.cpp" />
+    <ClCompile Include="4.9_sizeof_operator.cpp" />
     <ClCompile Include="prac_4.1.cpp" />
     <ClCompile Include="prac_4.11.cpp" />
     <ClCompile Include="prac_4.12.cpp" />
+    <ClCompile Include="prac_4.13.cpp" />
+    <ClCompile Include="prac_4.14.cpp" />
+    <ClCompile Include="prac_4.15.cpp" />
+    <ClCompile Include="prac_4.16.cpp" />
+    <ClCompile Include="prac_4.17.cpp" />
+    <ClCompile Include="prac_4.19.cpp" />
+    <ClCompile Include="prac_4.20.cpp" />
+    <ClCompile Include="prac_4.21.cpp" />
+    <ClCompile Include="prac_4.22.cpp" />
+    <ClCompile Include="prac_4.23.cpp" />
+    <ClCompile Include="prac_4.24.cpp" />
+    <ClCompile Include="prac_4.25.cpp" />
+    <ClCompile Include="prac_4.27.cpp" />
+    <ClCompile Include="prac_4.28.cpp" />
+    <ClCompile Include="prac_4.29.cpp" />
+    <ClCompile Include="prac_4.30.cpp" />
+    <ClCompile Include="prac_4.31.cpp" />
+    <ClCompile Include="prac_4.32.cpp" />
+    <ClCompile Include="prac_4.33.cpp" />
     <ClCompile Include="prac_4.4.cpp" />
     <ClCompile Include="prac_4.5.cpp" />
     <ClCompile Include="prac_4.6.cpp" />
     <ClCompile Include="prac_4.7.cpp" />
     <ClCompile Include="prac_4.8.cpp" />
     <ClCompile Include="prac_4.9.cpp" />
-    <ClCompile Include="prac_42.cpp" />
+    <ClCompile Include="prac_4.18.cpp" />
+    <ClCompile Include="prac_4.2.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sales_data.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
