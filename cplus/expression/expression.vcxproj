@@ -147,6 +147,9 @@
     <ClCompile Include="4.1.2_precedence_associativity.cpp" />
     <ClCompile Include="4.1.3_operate_order.cpp" />
     <ClCompile Include="4.10_comma_operator.cpp" />
+    <ClCompile Include="4.11.1_arithmetic_conversion.cpp" />
+    <ClCompile Include="4.11.2_other_conversion.cpp" />
+    <ClCompile Include="4.11_conversion.cpp" />
     <ClCompile Include="4.2_arithmetic_operator.cpp" />
     <ClCompile Include="4.3_logic_operator.cpp" />
     <ClCompile Include="4.4_fuzhi.cpp" />
@@ -176,6 +179,10 @@
     <ClCompile Include="prac_4.31.cpp" />
     <ClCompile Include="prac_4.32.cpp" />
     <ClCompile Include="prac_4.33.cpp" />
+    <ClCompile Include="prac_4.35.cpp" />
+    <ClCompile Include="prac_4.36.cpp" />
+    <ClCompile Include="prac_4.37.cpp" />
+    <ClCompile Include="prac_4.38.cpp" />
     <ClCompile Include="prac_4.4.cpp" />
     <ClCompile Include="prac_4.5.cpp" />
     <ClCompile Include="prac_4.6.cpp" />
