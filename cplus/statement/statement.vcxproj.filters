@@ -39,5 +39,41 @@
     <ClCompile Include="prac_5.7.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="5.3.2_switch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="prac_5.9.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="prac_5.10.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="prac_511.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="prac_5.12.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="prac_5.13.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="5.4.1_while.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="prac_5.14.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="5.4.2_for.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="prac_5.15.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="prac_5.16.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="prac_5.17.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

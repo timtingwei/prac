@@ -145,11 +145,23 @@
     <ClCompile Include="5.1_simply_statement.cpp" />
     <ClCompile Include="5.2_statement_scope.cpp" />
     <ClCompile Include="5.3.1_if_statement.cpp" />
+    <ClCompile Include="5.3.2_switch.cpp" />
+    <ClCompile Include="5.4.1_while.cpp" />
+    <ClCompile Include="5.4.2_for.cpp" />
+    <ClCompile Include="prac_5.10.cpp" />
+    <ClCompile Include="prac_5.12.cpp" />
+    <ClCompile Include="prac_5.13.cpp" />
+    <ClCompile Include="prac_5.14.cpp" />
+    <ClCompile Include="prac_5.15.cpp" />
+    <ClCompile Include="prac_5.16.cpp" />
+    <ClCompile Include="prac_5.17.cpp" />
     <ClCompile Include="prac_5.3.cpp" />
     <ClCompile Include="prac_5.4.cpp" />
     <ClCompile Include="prac_5.5.cpp" />
     <ClCompile Include="prac_5.6.cpp" />
     <ClCompile Include="prac_5.7.cpp" />
+    <ClCompile Include="prac_5.9.cpp" />
+    <ClCompile Include="prac_511.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
