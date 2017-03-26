@@ -23,7 +23,4 @@ int prac_517()
 
 	system("pause");
 	return 0;
-		
-
-
 }

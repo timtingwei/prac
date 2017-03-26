@@ -148,6 +148,14 @@
     <ClCompile Include="5.3.2_switch.cpp" />
     <ClCompile Include="5.4.1_while.cpp" />
     <ClCompile Include="5.4.2_for.cpp" />
+    <ClCompile Include="5.4.3_range_for_statement.cpp" />
+    <ClCompile Include="5.5.1_break.cpp" />
+    <ClCompile Include="5.5.2_continue.cpp" />
+    <ClCompile Include="5.5.3_goto_statement.cpp" />
+    <ClCompile Include="5.5.4_do_while_statement.cpp" />
+    <ClCompile Include="5.6.1_throw.cpp" />
+    <ClCompile Include="5.6.2_try.cpp" />
+    <ClCompile Include="5.6.3_stdexcept.cpp" />
     <ClCompile Include="prac_5.10.cpp" />
     <ClCompile Include="prac_5.12.cpp" />
     <ClCompile Include="prac_5.13.cpp" />
@@ -155,6 +163,13 @@
     <ClCompile Include="prac_5.15.cpp" />
     <ClCompile Include="prac_5.16.cpp" />
     <ClCompile Include="prac_5.17.cpp" />
+    <ClCompile Include="prac_5.18.cpp" />
+    <ClCompile Include="prac_5.19.cpp" />
+    <ClCompile Include="prac_5.20.cpp" />
+    <ClCompile Include="prac_5.21.cpp" />
+    <ClCompile Include="prac_5.22.cpp" />
+    <ClCompile Include="prac_5.23.cpp" />
+    <ClCompile Include="prac_5.24.cpp" />
     <ClCompile Include="prac_5.3.cpp" />
     <ClCompile Include="prac_5.4.cpp" />
     <ClCompile Include="prac_5.5.cpp" />
@@ -162,6 +177,9 @@
     <ClCompile Include="prac_5.7.cpp" />
     <ClCompile Include="prac_5.9.cpp" />
     <ClCompile Include="prac_511.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sales_item.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
