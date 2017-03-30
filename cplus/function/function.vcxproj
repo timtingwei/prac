@@ -142,11 +142,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="6.1.1_local_object.cpp" />
+    <ClCompile Include="6.1.2_function_prototype.cpp" />
     <ClCompile Include="6.1_basic_of_function.cpp" />
     <ClCompile Include="prac_6.1.cpp" />
     <ClCompile Include="prac_6.2.cpp" />
     <ClCompile Include="prac_6.3.cpp" />
     <ClCompile Include="prac_6.5.cpp" />
+    <ClCompile Include="prac_6.6.cpp" />
+    <ClCompile Include="prac_6.7.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Chapter6.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
