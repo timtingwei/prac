@@ -1,4 +1,4 @@
-#include <iostream>
+/*#include <iostream>
 #include <vector>
 #include "Chapter6.h"
 using std::cin; using std::cout; using std::endl;
@@ -19,7 +19,7 @@ void print(vector<int>::const_iterator beg,
 
 int function_prototype_612()
 {
-	cout << i << endl;
+	cout << iext << endl;
 
 	cout << head_call(8) << endl;
 	//vector<int> ivec = { 0,1,2,3 };
@@ -36,4 +36,4 @@ int function_prototype_612()
 
 	system("pause");
 	return 0;
-}
+}*/

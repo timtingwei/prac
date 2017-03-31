@@ -42,6 +42,36 @@
     <ClCompile Include="6.1.2_function_prototype.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="6.1.3_fact.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="6.1.3_factMain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="6.2.1_passed_by_value.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="prac_6.10.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="6.2.2_passed_by_reference.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="prac_6.11.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="prac_6.12.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="prac_6.13.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="prac_6.14.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="prac_6.15.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Chapter6.h">

@@ -144,8 +144,18 @@
   <ItemGroup>
     <ClCompile Include="6.1.1_local_object.cpp" />
     <ClCompile Include="6.1.2_function_prototype.cpp" />
+    <ClCompile Include="6.1.3_fact.cpp" />
+    <ClCompile Include="6.1.3_factMain.cpp" />
     <ClCompile Include="6.1_basic_of_function.cpp" />
+    <ClCompile Include="6.2.1_passed_by_value.cpp" />
+    <ClCompile Include="6.2.2_passed_by_reference.cpp" />
     <ClCompile Include="prac_6.1.cpp" />
+    <ClCompile Include="prac_6.10.cpp" />
+    <ClCompile Include="prac_6.11.cpp" />
+    <ClCompile Include="prac_6.12.cpp" />
+    <ClCompile Include="prac_6.13.cpp" />
+    <ClCompile Include="prac_6.14.cpp" />
+    <ClCompile Include="prac_6.15.cpp" />
     <ClCompile Include="prac_6.2.cpp" />
     <ClCompile Include="prac_6.3.cpp" />
     <ClCompile Include="prac_6.5.cpp" />
