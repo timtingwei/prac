@@ -40,7 +40,7 @@ int main_value()
 	system("pause");
 	return 0;
 }
-void reset(int *p)
+void reset_p(int *p)
 {
 	//函数接受一个指针，将指针位置 置于0
 	*p = 7;             //改变指针ip所指对象的值
@@ -57,7 +57,7 @@ int passed_by_value_621()
 	p = q;                      //p现在指向i，但是i和n的值不变
 
 
-	reset(&i);                  //改变i的值而非i的地址
+	reset_p(&i);                  //改变i的值而非i的地址
 	cout << "i = " << i << endl;//输出
 	
 	

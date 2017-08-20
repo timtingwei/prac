@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
 #include <vector>
+#include <string>
 
 
 extern int iext = 5;
@@ -19,3 +20,11 @@ int head_call(int j)
 int call_back();      //头文件声明call_back函数
 
 int myFact();
+
+void reset_p(int *p);                                         //声明形参为指针类型的reset
+void reset_r(int &r);                                         //声明形参为引用类型的reset
+//std::string::size_type find_char(const std::string &s, char c,
+	//std::string::size_type &occurs);                        //声明find_char函数
+
+std::string::size_type find_char(const std::string &s, char c,      //声明find_char函数形参类型类string &
+	std::string::size_type &occurs);
